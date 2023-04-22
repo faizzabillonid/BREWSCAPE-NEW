@@ -164,3 +164,20 @@ nav ul li a:hover {
     background: white;
     color: black;
   }
+
+  footer {
+    margin-top: 90px;
+    background-color: #2E1600;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .right {
+    display: flex;
+    gap: 10px;
+  }
+  .right i {
+    font-size: 1.5rem;
+  }
