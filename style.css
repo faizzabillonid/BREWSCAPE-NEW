@@ -166,9 +166,8 @@ nav ul li a:hover {
   }
 
   footer {
-    margin-top: 90px;
-    background-color: #2E1600;
-    color: white;
+   margin: 50px;
+    color:gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,4 +179,33 @@ nav ul li a:hover {
   }
   .right i {
     font-size: 1.5rem;
+  }
+
+  /* THIS IS MENU COFFEE CSS*/
+
+  .menucoffee{
+    margin-top: 120px;
+  }
+
+  .text-container-menucoffee{
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translateY(-50%);
+    color: white;
+
+    flex-direction: column;
+    max-width: 1000px;
+  }
+
+  .text-container-menucoffee h1{
+    font-weight: 500;
+    font-size: 38px;
+    text-align: center;
+  } 
+
+  .menu-container{
+    display: flex;
+    background-color:black;
+    margin: 50px;
   }
