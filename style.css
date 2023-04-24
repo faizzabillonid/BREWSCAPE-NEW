@@ -222,8 +222,11 @@ nav ul li a:hover {
     height: 200px;
     padding: 10px;
     margin-top: 20px;
+    background-color: beige;
   }
-
+  #category-name {
+    color: #FFF;
+  }
   i {
     margin: 30px;
   }
@@ -251,7 +254,11 @@ nav ul li a:hover {
     background-color: black;
     padding: 50px  30px;
   }
-  
+
   i{
     margin: 10px;
+  }
+
+  #coffee{
+    margin: 20px;
   }
