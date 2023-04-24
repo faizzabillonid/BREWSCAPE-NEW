@@ -223,6 +223,10 @@ nav ul li a:hover {
     padding: 10px;
     margin-top: 20px;
     background-color: beige;
+   
+
+    justify-content: center;
+    align-items: center;
   }
   #category-name {
     color: #FFF;
@@ -261,4 +265,16 @@ nav ul li a:hover {
 
   #coffee{
     margin: 20px;
+  }
+
+  #food-items{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #card-top
+  {
+  
+    text-align: center;
   }
