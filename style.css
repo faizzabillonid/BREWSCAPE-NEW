@@ -206,7 +206,7 @@ nav ul li a:hover {
 
   .menu-container{
     display: flex;
-    background-color:black;
+    background-color:rgb(241, 241, 241);
     margin: 50px;
   }
 
@@ -226,4 +226,32 @@ nav ul li a:hover {
 
   i {
     margin: 30px;
+  }
+
+  .list-name{
+    font-size: large;
+    font-weight: 500;
+    
+    color: black;
+  }
+
+  #category-list{
+    width: 25%;
+    min-height: 500px;
+    background-color: rgb(211, 177, 126);
+    padding: 20px;
+  
+  }
+
+  .list-card{
+    margin-top: 50px;
+  }
+  
+  .menu-container{
+    background-color: black;
+    padding: 50px  30px;
+  }
+  
+  i{
+    margin: 10px;
   }
