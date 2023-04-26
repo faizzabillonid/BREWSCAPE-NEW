@@ -63,6 +63,7 @@ nav ul li a:hover {
     font-weight: 500;
     margin-top: 16px;
     right: -10%;
+    cursor: pointer;
 }
 
 #signup-btn {
@@ -216,7 +217,7 @@ nav ul li a:hover {
  
 
   #item-card {
-    width: 180px;
+    width: 220px;
     min-height: 270px;
     padding: 10px;
     margin-left: 30px;
@@ -224,6 +225,8 @@ nav ul li a:hover {
     border-radius: 5px;
     background: beige;
     cursor: pointer;
+    text-align: center;
+ 
 
   }
 
@@ -286,7 +289,7 @@ nav ul li a:hover {
   }
 
   .list-name{
-    font-size: large;
+    font-size: 23px;
     font-weight: 500;
     
     color: black;
