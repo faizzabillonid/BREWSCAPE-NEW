@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\css\style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Menu</title>
     <link rel="icon" href="img/logo.png" >
@@ -12,22 +12,21 @@
 </head>
 <body>
     <nav>
-       <a href="home.html"> <img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"> </a>
+       <a href="home.php"> <img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"> </a>
        <ul>
-        <li> <a href="home.html">HOME</a></li>
-          <li> <a href="menucoffee.html">MENU</a></li>
+        <li> <a href="home.php">HOME</a></li>
+          <li> <a href="menucoffee.php">MENU</a></li>
           <li> <a href="#">FIND A STORE</a></li>
           <li> <a href="#">ABOUT US</a></li>       
           <li> <a href="#">CART</a></li>
-          <button onclick="window.location.href = 'signin.html';"id="signup-btn">Sign In</button>
+          <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>
 
       </ul>
-       
-    
+
 
     </nav>     
         <div class="image-container"> 
-            <img src="\Photos\coffeemenu.png" class="menucoffee" style=" width: 100%; height: 425px;">
+            <img src="Photos/coffeemenu.png" class="menucoffee" style=" width: 100%; height: 425px;">
             <div class="text-container-menucoffee">
             <h1 class="indulge">"Indulge in a perfect pairing of rich coffee and delectable pastries, crafted to elevate your taste buds."</h1>
           </div>
@@ -66,7 +65,7 @@
                                 <i class="fa fa-star" id="rating">  5</i>
                                 <i class="fa fa-shopping-cart"></i>
                             </div>
-                                <img src="\Photos\cafe latter.jpg" alt="">
+                                <img src="img\menu_cafelatte.png" alt="">
                                 <p id="item-name">Cafe Latte</p>
                                 <p class="item-description"> Espresso with milk</p>
                                 <p id="item-price">150.00</p>
@@ -79,46 +78,52 @@
                                 <i class="fa fa-star" id="rating">  5</i>
                                 <i class="fa fa-shopping-cart"></i>
                             </div>
-                                <img src="\Photos\cafe latter.jpg" alt="">
-                                <p class="item-description"> Espresso with milkaksjdhnajksdhals</p>
+                                <img src="img\menu_cappuccino.png" alt="">
                                 <p id="item-name">Cappuccino</p>
+                                <p class="item-description"> Single espresso shot with hot milk</p>
+                        
                                 <p id="item-price">150.00</p>
                             </div>
                     </div>
-                             <!-- 1st card -->
+                             <!-- 3rd card -->
                              <div class="col-sm-4">
                                 <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5</i>
                                         <i class="fa fa-shopping-cart"></i>
                                     </div>
-                                        <img src="\Photos\cafe latter.jpg" alt="">
-                                        <p id="item-name">Cafe Latte</p>
-                                        <p class="item-description"> Espresso with milk</p>
+                                        <img src="img\menu_macchiato1.png" alt="">
+                                        <p id="item-name">Macchiato</p>
+                                        <p class="item-description"> Espresso with small amount of milk</p>
                                         <p id="item-price">150.00</p>
                                     </div>
                             </div>
-                            <!-- 2nd card -->
+                            <!-- 4th card -->
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5</i>
                                         <i class="fa fa-shopping-cart"></i>
                                     </div>
-                                        <img src="\Photos\cafe latter.jpg" alt="">
-                                        <p class="item-description"> Espresso with milkaksjdhnajksdhals</p>
-                                        <p id="item-name">Cappuccino</p>
+                                        <img src="img\menu_greentea.png" alt="">
+                                            <p id="item-name">Green Tea</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                    
                                         <p id="item-price">150.00</p>
                                     </div>
-                            </div>
-                                     <!-- 1st card -->
+                            </div> 
+                        </div>
+                            <!-- BREADS AND PASTRIES SECTION -->
+                            <p class="category-name" id="coffee">Bread and Pastries</p>
+                            <div class="row">
+                    <!-- 1st card -->
                     <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
                                 <i class="fa fa-shopping-cart"></i>
                             </div>
-                                <img src="\Photos\cafe latter.jpg" alt="">
+                                <img src="img\menu_cafelatte.png" alt="">
                                 <p id="item-name">Cafe Latte</p>
                                 <p class="item-description"> Espresso with milk</p>
                                 <p id="item-price">150.00</p>
@@ -131,41 +136,45 @@
                                 <i class="fa fa-star" id="rating">  5</i>
                                 <i class="fa fa-shopping-cart"></i>
                             </div>
-                                <img src="\Photos\cafe latter.jpg" alt="">
-                                <p class="item-description"> Espresso with milkaksjdhnajksdhals</p>
+                                <img src="img\menu_cappuccino.png" alt="">
                                 <p id="item-name">Cappuccino</p>
+                                <p class="item-description"> Single espresso shot with hot milk</p>
+                        
                                 <p id="item-price">150.00</p>
                             </div>
                     </div>
-                             <!-- 1st card -->
+                             <!-- 3rd card -->
                              <div class="col-sm-4">
                                 <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5</i>
                                         <i class="fa fa-shopping-cart"></i>
                                     </div>
-                                        <img src="\Photos\cafe latter.jpg" alt="">
-                                        <p id="item-name">Cafe Latte</p>
-                                        <p class="item-description"> Espresso with milk</p>
+                                        <img src="img\menu_macchiato1.png" alt="">
+                                        <p id="item-name">Macchiato</p>
+                                        <p class="item-description"> Espresso with small amount of milk</p>
                                         <p id="item-price">150.00</p>
                                     </div>
                             </div>
-                            <!-- 2nd card -->
+                            <!-- 4th card -->
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5</i>
                                         <i class="fa fa-shopping-cart"></i>
                                     </div>
-                                        <img src="\Photos\cafe latter.jpg" alt="">
-                                        <p class="item-description"> Espresso with milkaksjdhnajksdhals</p>
-                                        <p id="item-name">Cappuccino</p>
+                                        <img src="img\menu_greentea.png" alt="">
+                                            <p id="item-name">Green Tea</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                    
                                         <p id="item-price">150.00</p>
                                     </div>
-                            </div>
+                            </div> 
+                        </div>
+                
                 <!-- END CARD -->
                 <!-- END ROW -->
-                </div>
+               
             </div>
 
 

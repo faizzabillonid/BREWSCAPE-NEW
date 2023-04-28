@@ -16,13 +16,16 @@ nav
 {
 position: sticky;
 width: 100%;
-height: 120px;
+max-height: 120px;
 left: 0px;
 top: 0px;
 list-style: none;
 background: #15120E;
 border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 color: white;
+z-index: 1;
+overflow: hidden;
+
 }
 nav ul{
     float: right;
@@ -50,7 +53,7 @@ nav ul li a:hover {
 
 #home{
     filter: brightness(50%);
-    margin-top: 120px;
+    margin-top: 0px;
 }
 
 
@@ -94,7 +97,7 @@ nav ul li a:hover {
   .image-container img {
     width: 100%;
     height: auto;
-    display: block;
+ 
   }
   
   .text-container {
@@ -191,7 +194,7 @@ nav ul li a:hover {
   /* THIS IS MENU COFFEE CSS*/
 
   .menucoffee{
-    margin-top: 120px;
+    margin-top: 0px;
   }
 
   .text-container-menucoffee{
@@ -227,7 +230,6 @@ nav ul li a:hover {
     display: inline-block;
     border-radius: 5px;
     background: beige;
-    cursor: pointer;
     text-align: center;
  
 
@@ -262,14 +264,13 @@ nav ul li a:hover {
   #item-card img {
     width: 200px;
     height: 200px;
-    
     margin: auto;
     display: block;
     margin-bottom: 15px;
     transition: 0.5s all ease-in-out;
   }
 
-  #item-card:hover img{
+  #item-card img:hover{
     transform: scale(1.2);
   }
 
@@ -322,15 +323,17 @@ nav ul li a:hover {
     box-sizing: content-box;
     width: 100%;
     margin-left: 100px;
+    max-height: 500px;
   }
 
 
  ::-webkit-scrollbar{
-    display: none;
+    display: absolute;
+
   }
   
   .category-name {
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 10px;
     font-size: 35px;
     color: beige;

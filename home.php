@@ -7,7 +7,7 @@
     <title>Brewscape</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-    <link rel="stylesheet" href="\css\style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 
@@ -17,7 +17,7 @@
         <img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;">
         <ul>
           <li> <a href="#">HOME</a></li>
-            <li> <a href="menucoffee.html">MENU</a></li>
+            <li> <a href="menucoffee.php">MENU</a></li>
             <li> <a href="#">FIND A STORE</a></li>
             <li> <a href="#">ABOUT US</a></li>       
             <li> <a href="#">CART</a></li>
@@ -27,7 +27,7 @@
     </nav>
 
     <div class="image-container"> 
-    <img src="\Photos\coffeehome1.jpg" id="home" style=" width: 100%; height: 500px;">
+    <img src="Photos/coffeehome1.jpg" id="home" style=" width: 100%; height: 500px;">
     <div class="text-container">
     <h1>Fuel Your Day With Our Rich and Aromatic Brews.</h1>
           <button onclick="window.location.href = 'menucoffee.html';" class="discover">Discover The Menu</button>
