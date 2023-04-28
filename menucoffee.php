@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Menu</title>
     <link rel="icon" href="img/logo.png" >
+    <link rel="stylesheet" href="script.js">
 
 </head>
 <body>
@@ -41,7 +42,7 @@
                      alt="list">
                      <a href="#coffee" class="list-name"><b> Coffee</b></a>
                 </div>
-                <div class="list-card">
+                <div class="list-card" id="Bread-list">
                     <img src="img\home_donut.png" style="width:100px; height: 100px;"
                      alt="list">
                      <a href="#breads" class="list-name"> Bread and Pastries</a>
@@ -49,7 +50,7 @@
                 <div class="list-card">
                 <img src="img\home_breakfast.png" style="width:100px; height: 100px;"
                      alt="list">
-                     <a href="" class="list-name">Breakfast Meal</a>
+                     <a href="#breakfast" class="list-name">Breakfast Meal</a>
                 </div>
             </div>
             
@@ -95,7 +96,7 @@
                                 <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                        <i class="fa fa-shopping-cart">Add to Cart</i>
                                         <img src="img\menu_macchiato1.png" alt="">
                                     </div>
                                    <div class="card-bottom">
@@ -110,7 +111,7 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                        <i class="fa fa-shopping-cart">Add to Cart</i>
                                          <img src="img\menu_greentea.png" style="height:180px; width: 240px; margin-top:15px;" alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -121,121 +122,67 @@
                                     </div>
                             </div> 
                         </div>
+
+                </div>
                             <!-- BREADS AND PASTRIES SECTION -->
                             <p class="category-name" id="breads">Bread and Pastries</p>
-                            <div class="row">
-                    <!-- 1st card -->
-                    <div class="col-sm-4">
+                            <!-- ROW -->
+                <div class="row">
+                        <!-- 1st card BREAD -->
+                        <div class="col-sm-4">
                         <div id="item-card">           
-                            <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"></i>
-                            </div>
-                                <img src="img\menu_cafelatte.png" alt="">
-                                <p id="item-name">Cafe Latte</p>
-                                <p class="item-description"> Espresso with milk</p>
-                                <p id="item-price">150.00</p>
-                            </div>
-                    </div>
-                    <!-- 2nd card -->
-                    <div id="col-sm-4">
-                            <div id="item-card">           
-                            <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"></i>
-                            </div>
-                                <img src="img\menu_cappuccino.png" alt="">
-                                <p id="item-name">Cappuccino</p>
-                                <p class="item-description"> Single espresso shot with hot milk</p>
-                        
-                                <p id="item-price">150.00</p>
-                            </div>
-                    </div>
-                             <!-- 3rd card -->
-                             <div class="col-sm-4">
-                                <div id="item-card">           
-                                    <div id="card-top">
-                                        <i class="fa fa-star" id="rating">  5</i>
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </div>
-                                        <img src="img\menu_macchiato1.png" alt="">
-                                        <p id="item-name">Macchiato</p>
-                                        <p class="item-description"> Espresso with small amount of milk</p>
-                                        <p id="item-price">150.00</p>
-                                    </div>
-                            </div>
-                            <!-- 4th card -->
-                            <div id="col-sm-4">
-                                    <div id="item-card">           
-                                    <div id="card-top">
-                                        <i class="fa fa-star" id="rating">  5</i>
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </div>
-                                        <img src="img\menu_greentea.png" alt="">
-                                            <p id="item-name">Green Tea</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                    
-                                        <p id="item-price">150.00</p>
-                                    </div>
-                            </div> 
-                        </div>
-                 <!-- BREADS AND PASTRIES SECTION -->
-                 <p class="category-name" id="coffee">Breakfast Meals</p>
-                            <div class="row">
-                    <!-- 1st card -->
-                    <div class="col-sm-4">
-                        <div id="item-card">           
-                            <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"></i>
-                            </div>
-                                <img src="img\menu_cafelatte.png" alt="">
-                                <p id="item-name">Cafe Latte</p>
-                                <p class="item-description"> Espresso with milk</p>
-                                <p id="item-price">150.00</p>
-                            </div>
-                    </div>
-                    <!-- 2nd card -->
-                    <div id="col-sm-4">
-                            <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
                                 <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_waffles1.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Waffles</p> 
+                            <p class="item-description"> Blueberry and strawberry waffles with syrup</p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
-                                <img src="img\menu_cappuccino.png" alt="">
-                                <p id="item-name">Cappuccino</p>
-                                <p class="item-description"> Single espresso shot with hot milk</p>
-                        
-                                <p id="item-price">150.00</p>
-                            </div>
+                        </div>
                     </div>
-                             <!-- 3rd card -->
-                             <div class="col-sm-4">
-                                <div id="item-card">           
-                                    <div id="card-top">
-                                        <i class="fa fa-star" id="rating">  5</i>
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </div>
-                                        <img src="img\menu_macchiato1.png" alt="">
-                                        <p id="item-name">Macchiato</p>
-                                        <p class="item-description"> Espresso with small amount of milk</p>
-                                        <p id="item-price">150.00</p>
-                                    </div>
+                      <!-- 2nd card BREAD -->
+                      <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_muffin.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Muffins</p> 
+                            <p class="item-description"> Chocolate muffin topped with kisses chocolates</p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
-                            <!-- 4th card -->
-                            <div id="col-sm-4">
-                                    <div id="item-card">           
-                                    <div id="card-top">
-                                        <i class="fa fa-star" id="rating">  5</i>
-                                        <i class="fa fa-shopping-cart"></i>
-                                    </div>
-                                        <img src="img\menu_greentea.png" alt="">
-                                            <p id="item-name">Green Tea</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                    
-                                        <p id="item-price" style="font-size:28px;" >150.00</p>
-                                    </div>
-                            </div> 
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+                 <!-- BREAKFAST MEALS SECTION -->
+                 <p class="category-name" id="breakfast">Breakfast Meals</p>
+                            <div class="row">
+                       <!-- 1st card BREAD -->
+                       <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_pancakes.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Waffles</p> 
+                            <p class="item-description"> Blueberry and strawberry pancakes with syrup</p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
                         </div>
                
                 

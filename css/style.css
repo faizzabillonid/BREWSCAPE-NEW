@@ -293,15 +293,16 @@ nav ul li a:hover {
     margin: 5px 0;
     font-weight: 600;
     color: darkslategray;
-    font-size: 18px;
+    font-size: 23px;
   }
 
   #item-price {
     margin: 0;
     color: rgb(2, 27, 27);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 28px;
     margin-top: 15px;
+    font-weight: 700;
   }
 
   .list-name{
@@ -331,7 +332,7 @@ nav ul li a:hover {
     overflow-x: hidden;
     box-sizing: content-box;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 80px;
     max-height: 500px;
   }
 
@@ -347,3 +348,5 @@ nav ul li a:hover {
     font-size: 35px;
     color: beige;
   }
+
+
