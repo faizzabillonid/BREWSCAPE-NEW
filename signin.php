@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\css\signup.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <title>Sign In</title>
-</head>
-<body>
-
+<?php
+    include('partials/header.php')
+?>
     <div class="form-container">
         <form action="" class="form">
             <h2>SIGN IN</h2>
@@ -25,7 +16,7 @@
                 </div>
 
                 <div class="row">
-                    <button id="signinbtn"><a href="signup.html">Sign In</a></button>
+                    <button id="signinbtn"><a href="signup.php">Sign In</a></button>
 
                     <span class="registerlink">You don't have an account? <a href="signup.html">Sign Up Here!</a></span>
                 </div>
@@ -35,5 +26,7 @@
             <img src="\Photos\cafelogin.jpg" alt="">
         </div>
     </div>
-</body>
-</html>
+
+<?php
+    include('partials/footer.php')
+?>
