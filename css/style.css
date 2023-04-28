@@ -218,7 +218,7 @@ nav ul li a:hover {
 
   #item-card {
     width: 220px;
-    height: 270px;
+    height: 300px;
     padding: 10px;
     margin-left: 30px;
     display: inline-block;
@@ -257,9 +257,9 @@ nav ul li a:hover {
   }
 
   #item-card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
     margin: auto;
     display: block;
     margin-bottom: 15px;
@@ -313,11 +313,13 @@ nav ul li a:hover {
   }
 
   #food-container {
-    background: black;
-    overflow: scroll;
-    overflow-x: hidden;
-    box-sizing: content-box;
-  }
+      background: black;
+      overflow: scroll;
+      overflow-x: hidden;
+      box-sizing: content-box;
+      width: 100%;
+    }
+  
 
   ::-webkit-scrollbar{
     display: none;
