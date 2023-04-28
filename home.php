@@ -30,7 +30,7 @@
     <img src="Photos/coffeehome1.jpg" id="home" style=" width: 100%; height: 500px;">
     <div class="text-container">
     <h1>Fuel Your Day With Our Rich and Aromatic Brews.</h1>
-          <button onclick="window.location.href = 'menucoffee.html';" class="discover">Discover The Menu</button>
+          <button onclick="window.location.href = 'menucoffee.php';" class="discover">Discover The Menu</button>
   </div>
     </div>
 
@@ -40,7 +40,7 @@
             <img src="Photos/coffee1.png" alt="Image 1">
             <div class="text-container1">
               <h2>"A Refreshing Twist On A Classic Favorite: Iced Latte."</h2>
-              <button onclick="window.location.href = 'menucoffee.html';"class="home-btns">Sip, sip, Go</button>
+              <button onclick="window.location.href = 'menucoffee.php';"class="home-btns">Sip, sip, Go</button>
             </div>
           </div>
           <div class="col">
