@@ -296,7 +296,7 @@ nav ul li a:hover {
   }
 
   #category-list{
-    width: 17%;
+    width: 25%;
     min-height: 500px;
     background-color: rgb(211, 177, 126);
     padding: 20px;
@@ -317,9 +317,10 @@ nav ul li a:hover {
     overflow: scroll;
     overflow-x: hidden;
     box-sizing: content-box;
+    max-height: 600px;
   }
 
-  ::-webkit-scrollbar{
+ ::-webkit-scrollbar{
     display: none;
   }
   
