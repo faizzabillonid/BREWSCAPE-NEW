@@ -6,7 +6,7 @@
     margin: 0px;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -16,7 +16,7 @@ nav
 {
 position: sticky;
 width: 100%;
-height: 120px;
+max-height: 120px;
 left: 0px;
 top: 0;
 list-style: none;
@@ -24,6 +24,11 @@ background: #15120E;
 border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 color: white;
 z-index: 1;
+<<<<<<< HEAD
+=======
+overflow: hidden;
+
+>>>>>>> d2824591bad892e19de5ce2884cca0e66f8d1ffa
 }
 nav ul{
     float: right;
@@ -51,7 +56,7 @@ nav ul li a:hover {
 
 #home{
     filter: brightness(50%);
-    margin-top: 120px;
+    margin-top: 0px;
 }
 
 
@@ -95,7 +100,7 @@ nav ul li a:hover {
   .image-container img {
     width: 100%;
     height: auto;
-    display: block;
+ 
   }
   
   .text-container {
@@ -192,7 +197,7 @@ nav ul li a:hover {
   /* THIS IS MENU COFFEE CSS*/
 
   .menucoffee{
-    margin-top: 120px;
+    margin-top: 0px;
   }
 
   .text-container-menucoffee{
@@ -214,23 +219,26 @@ nav ul li a:hover {
 
   .menu-container{
     display: flex;
-    background-color:rgb(241, 241, 241);
     margin: 50px;
+    background-color: black;
+    padding: 50px  30px;
+    width: 95%;
   }
 
  
 
   #item-card {
-    width: 220px;
+    width: 280px;
     height: 400px;
-    padding: 10px;
+    padding: 30px 0 20px 0px;
     margin: 20px;
-    display: inline-block;
     border-radius: 5px;
     background: beige;
-    cursor: pointer;
     text-align: center;
- 
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
   }
 
@@ -238,6 +246,13 @@ nav ul li a:hover {
     display: flex;
     margin: 5px 0;
     justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+  .card-bottom {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
   }
 
   #rating {
@@ -252,7 +267,7 @@ nav ul li a:hover {
     padding: 6px;
     background: white;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 
   .toggle-shopping-cart {
@@ -263,14 +278,13 @@ nav ul li a:hover {
   #item-card img {
     width: 200px;
     height: 200px;
-    
     margin: auto;
     display: block;
-    margin-bottom: 15px;
+
     transition: 0.5s all ease-in-out;
   }
 
-  #item-card:hover img{
+  #item-card img:hover{
     transform: scale(1.2);
   }
 
@@ -282,26 +296,28 @@ nav ul li a:hover {
     margin: 5px 0;
     font-weight: 600;
     color: darkslategray;
-    font-size: 18px;
+    font-size: 23px;
   }
 
   #item-price {
     margin: 0;
     color: rgb(2, 27, 27);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 28px;
+    margin-top: 15px;
+    font-weight: 700;
   }
 
   .list-name{
     font-size: 23px;
     font-weight: 500;
-    
+    margin-left: 15px;
     color: black;
   }
 
   #category-list{
     width: 25%;
-    min-height: 500px;
+    min-height: 550px;
     background-color: rgb(211, 177, 126);
     padding: 20px;
   
@@ -309,11 +325,8 @@ nav ul li a:hover {
 
   .list-card{
     margin-top: 50px;
-  }
-  
-  .menu-container{
-    background-color: black;
-    padding: 50px  30px;
+    display: flex;
+   align-items:center
   }
 
   #food-container {
@@ -322,17 +335,21 @@ nav ul li a:hover {
     overflow-x: hidden;
     box-sizing: content-box;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 80px;
+    max-height: 500px;
   }
 
 
  ::-webkit-scrollbar{
-    display: none;
+    display: absolute;
+
   }
   
   .category-name {
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 10px;
     font-size: 35px;
     color: beige;
   }
+
+
