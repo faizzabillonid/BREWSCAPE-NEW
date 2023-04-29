@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Menu</title>
-    <link rel="icon" href="img/logo.png" >
+    <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="script.js">
 
 </head>
@@ -18,7 +18,7 @@
         <li> <a href="home.php">HOME</a></li>
           <li> <a href="menucoffee.php">MENU</a></li>
           <li> <a href="#">FIND A STORE</a></li>
-          <li> <a href="#">ABOUT US</a></li>       
+          <li> <a href="about.php">ABOUT US</a></li>       
           <li> <a href="#">CART</a></li>
           <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>
 
