@@ -185,10 +185,12 @@ nav ul li a:hover {
   }
   .right {
     display: flex;
-    gap: 10px;
+  
+
   }
-  .right i {
+  .right a i {
     font-size: 1.5rem;
+    
   }
 
   /* THIS IS MENU COFFEE CSS*/
@@ -349,4 +351,6 @@ nav ul li a:hover {
     color: beige;
   }
 
-
+a:active{
+  font-weight: 900;
+}

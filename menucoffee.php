@@ -45,7 +45,7 @@
                 <div class="list-card" id="Bread-list">
                     <img src="img\home_donut.png" style="width:100px; height: 100px;"
                      alt="list">
-                     <a href="#breads" class="list-name"> Bread and Pastries</a>
+                     <a href="#breads" class="list-name" > Bread and Pastries</a>
                 </div>
                 <div class="list-card">
                 <img src="img\home_breakfast.png" style="width:100px; height: 100px;"
@@ -153,7 +153,7 @@
                          </div>
                              <div class="card-bottom"> 
                               <p id="item-name">Muffins</p> 
-                            <p class="item-description"> Chocolate muffin topped with kisses chocolates</p>
+                            <p class="item-description">  Chocolate muffin topped with kisses chocolates</p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -177,12 +177,33 @@
                              <img src="img\menu_pancakes.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name">Waffles</p> 
+                              <p id="item-name">Pancakes</p> 
                             <p class="item-description"> Blueberry and strawberry pancakes with syrup</p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
                     </div>
+                    
+
+                            <!-- 1st card BREAD -->
+                            <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_englishbreakfast.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Full English Breakfast</p> 
+                            <p class="item-description"> bacon, eggs, sausage, baked beans, fried tomato, with toasted bread. </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                         </div>
                
                 
