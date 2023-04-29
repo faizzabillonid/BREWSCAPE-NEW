@@ -5,7 +5,7 @@ $connection = mysqli_connect("localhost", "root", "" , "login_db");
 
 if(isset($_POST['signin_btn']))
 {
-    $email = mysqli_real_escape_string($connection, $_POST['username']);
+    $username = mysqli_real_escape_string($connection, $_POST['username']);
     $password = mysqli_real_escape_string($connection, $_POST['password']);
 
     $query = "SELECT * FROM customers_signup WHERE username = '$username' AND password = '$password' LIMIT 1";
