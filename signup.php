@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,7 @@
 <body>
 
     <div class="signup-container">
-        <form action="" class="form">
+        <form action="signupcode.php" method="POST" class="form">
             <h2>SIGN UP</h2>
             <div class="row-grid">
                 <div class="row">
@@ -30,14 +34,14 @@
                 </div>
 
                 <div class="row">
-                    <button id="signupbtn"><a href="signin.html">Sign Up</a></button>
+                    <button type="signin" id="signupbtn" name="signup_btn" >Sign Up</a></button>
 
-                    <span class="registerlink">Already have an account? <a href="signin.html">Sign In Here!</a></span>
+                    <span class="registerlink">Already have an account? <a href="signin.php">Sign In Here!</a></span>
                 </div>
             </div>
         </form>
         <div class="side-signup">
-            <img src="\Photos\cafelogin.jpg" alt="">
+            <img src="Photos\cafelogin.jpg" alt="">
         </div>
     </div>
 </body>
