@@ -21,7 +21,8 @@
             <li> <a href="#">FIND A STORE</a></li>
             <li> <a href="#">ABOUT US</a></li>       
             <li> <a href="#">CART</a></li>
-            <button onclick="window.location.href = 'signin.html';"id="signup-btn">Sign In</button>
+            <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>
+           
 
         </ul>
     </nav>
