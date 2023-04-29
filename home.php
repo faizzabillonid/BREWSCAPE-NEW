@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brewscape</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+    <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -14,7 +14,8 @@
 <body>
     
     <nav>
-        <img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;">
+        <a href="home.php"><img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"></a>
+        <!--<img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;">-->
         <ul>
           <li> <a href="#">HOME</a></li>
             <li> <a href="menucoffee.php">MENU</a></li>
