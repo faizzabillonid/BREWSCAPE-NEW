@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -54,7 +54,7 @@ body {
     margin: 35px;
 }
 
-.row {
+.rows {
     display: grid;
     position: relative;
     gap: 1rem;
@@ -165,3 +165,4 @@ a {
     width: 350px;
     height: 530px;
 }
+

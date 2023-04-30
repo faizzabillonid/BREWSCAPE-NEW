@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Menu</title>
-    <link rel="icon" href="img/logo.png" >
+    <link rel="icon" href="img/logo1.png" >
     <link rel="stylesheet" href="script.js">
+    <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
@@ -19,12 +21,10 @@
           <li> <a href="menucoffee.php">MENU</a></li>
           <li> <a href="#">FIND A STORE</a></li>
           <li> <a href="#">ABOUT US</a></li>       
-          <li> <a href="#">CART</a></li>
+          <li> <a href="#">  <i class="fa-solid fa-cart-shopping fa-bounce" style="color: #ffffff;"></i> CART</a></li>
           <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>
 
       </ul>
-
-
     </nav>     
         <div class="image-container"> 
             <img src="Photos/coffeemenu.png" class="menucoffee" style=" width: 100%; height: 425px;">
@@ -40,7 +40,7 @@
                 <div class="list-card">
                     <img src="img\home_coffee.png" style="width:100px; height: 100px;"
                      alt="list">
-                     <a href="#coffee" class="list-name"><b> Coffee</b></a>
+                     <a href="#coffee" class="list-name"> Coffee</a>
                 </div>
                 <div class="list-card" id="Bread-list">
                     <img src="img\home_donut.png" style="width:100px; height: 100px;"
@@ -65,7 +65,7 @@
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
                                 <i class="fa fa-shopping-cart"> Add to Cart </i>
-                             <img src="img\menu_cafelatte.png" alt="">          
+                             <img src="img\menu_cafelatte.png"    alt="">          
                          </div>
                              <div class="card-bottom"> 
                               <p id="item-name">Cafe Latte</p> 
@@ -78,7 +78,7 @@
                     <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-star" id="rating">  5 </i>
                                 <i class="fa fa-shopping-cart"> Add to Cart </i>
                                 <img src="img\menu_cappuccino1.png" alt="">          
                          </div>
@@ -95,7 +95,7 @@
                              <div class="col-sm-4">
                                 <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">  5</i>
+                                        <i class="fa fa-star" id="rating">  5 </i>
                                         <i class="fa fa-shopping-cart">Add to Cart</i>
                                         <img src="img\menu_macchiato1.png" alt="">
                                     </div>
@@ -110,7 +110,7 @@
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">  5</i>
+                                        <i class="fa fa-star" id="rating">  5 </i>
                                         <i class="fa fa-shopping-cart">Add to Cart</i>
                                          <img src="img\menu_greentea.png" style="height:180px; width: 240px; margin-top:15px;" alt="" >
                                     </div>
@@ -132,7 +132,7 @@
                         <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-star" id="rating">  5 </i>
                                 <i class="fa fa-shopping-cart"> Add to Cart </i>
                              <img src="img\menu_waffles1.png" alt="">          
                          </div>
@@ -147,7 +147,7 @@
                       <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-star" id="rating">  5 </i>
                                 <i class="fa fa-shopping-cart"> Add to Cart </i>
                              <img src="img\menu_muffin.png" alt="">          
                          </div>
@@ -158,6 +158,37 @@
                             </div>
                         </div>
                     </div>
+                        <!-- 3RD card BREAD -->
+                        <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_cookie.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Oatmeal Cookie </p> 
+                            <p class="item-description">  soft and chewy cookies with raisins</p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                           <!--  4th card BREAD -->
+                           <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_brownies.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+
 
 
 
@@ -200,6 +231,22 @@
                             </div>
                         </div>
                     </div>
+                                <!-- 1st card BREAD -->
+                                <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                             <img src="img\menu_benedict.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Eggs Benedict</p> 
+                            <p class="item-description"> English muffin, Canadian bacon, poached egg, and hollandaise sauce </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+
 
 
 

@@ -49,8 +49,6 @@ nav ul li a:hover {
     color:gray
 }
 
-
-
 #home{
     filter: brightness(50%);
     margin-top: 0px;
@@ -185,7 +183,7 @@ nav ul li a:hover {
   }
   .right {
     display: flex;
-  
+    gap: 11px;
 
   }
   .right a i {
@@ -304,7 +302,7 @@ nav ul li a:hover {
     font-weight: 500;
     font-size: 28px;
     margin-top: 15px;
-    font-weight: 700;
+ 
   }
 
   .list-name{
@@ -351,6 +349,4 @@ nav ul li a:hover {
     color: beige;
   }
 
-a:active{
-  font-weight: 900;
-}
+  
