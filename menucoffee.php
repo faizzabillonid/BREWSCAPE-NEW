@@ -86,7 +86,7 @@
                               <p id="item-name">Cappuccino</p> 
                             <p class="item-description"> Single espresso shot with hot milk</p>
                             
-                             <p id="item-price" class="item-price" style=" font-size:28px;">₱150.00</p>
+                             <p id="item-price" class="item-price" style="font-size:28px;">₱150.00</p>
                      </div>
                             </div>
 
@@ -96,7 +96,7 @@
                                 <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5 </i>
-                                        <i class="fa fa-shopping-cart">Add to Cart</i>
+                                        <i class="fa fa-shopping-cart"> Add to Cart</i>
                                         <img src="img\menu_macchiato1.png" alt="">
                                     </div>
                                    <div class="card-bottom">
@@ -106,7 +106,25 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- 4th card -->
+
+                               <!-- 4th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">Add to Cart</i>
+                                         <img src="img\menu_americano.png" style=" margin-top:0px;" alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name"> Cafe Americano  </p>
+                                        <p class="item-description"> Espresso poured over hot water </p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                            </div> 
+                        </div>
+
+                            <!-- 5th card -->
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
@@ -168,7 +186,7 @@
                          </div>
                              <div class="card-bottom"> 
                               <p id="item-name"> Oatmeal Cookie </p> 
-                            <p class="item-description">  soft and chewy cookies with raisins</p>
+                            <p class="item-description"> cookie made from an oatmeal-based dough with raisins </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
