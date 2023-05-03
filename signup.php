@@ -19,25 +19,25 @@
         <form action="code.php" method="POST" class="form">
             <h2>SIGN UP</h2>
             <div class="row-grid">
-                <div class="row">
+                <div class="rows">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" placeholder="Enter Email" required>
                 </div>
 
-                <div class="row">
+                <div class="rows">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Enter Password" required>
                 </div>
 
-                <div class="row">
+                <div class="rows">
                     <label for="cpassword">Confirm Password</label>
                     <input type="password" id="cpassword" name="cpassword" placeholder="Confirm your Password" required>
                 </div>
 
-                <div class="row">
+                <div class="rows">
                     <button type="signin" id="signupbtn" name="signup_btn" >Sign Up</a></button>
 
-                    <span class="registerlink">Already have an account? <a href="signin.php">Sign In Here!</a></span>
+                    <span class="registerlink" style="margin-top: 15px;">Already have an account?<a href="signin.php"> Sign In Here!</a></span>
                 </div>
             </div>
         </form>
