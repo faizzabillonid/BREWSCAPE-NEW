@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brewscape</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="css/about.css">
@@ -19,7 +19,7 @@
         <ul>
           <li> <a href="home.php">HOME</a></li>
             <li> <a href="menucoffee.php">MENU</a></li>
-            <li> <a href="#">FIND A STORE</a></li>
+            <li> <a href="findstore.php">FIND A STORE</a></li>
             <li> <a href="about.php">ABOUT US</a></li>       
             <li> <a href="#">CART</a></li>
             <button onclick="window.location.href = 'signin.html';"id="signup-btn">Sign In</button>
@@ -29,7 +29,7 @@
 
     <div class="image-container"> 
     <img src="Photos/about-coffee.png" id="home" style=" width: 100%; height: 500px;">
-    </div>
+
 
   <div class="about">
 	<h1>The Brewscape Story</h1>

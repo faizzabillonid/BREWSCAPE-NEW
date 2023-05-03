@@ -193,31 +193,3 @@ nav ul li a:hover {
   .right i {
     font-size: 1.5rem;
   }
-.about h1{
-    text-align: left;
-    margin-top: 40px;
-		line-height: 1.5;
-		margin-bottom: 20px;
-		margin-left: 200px;
-		margin-right: 200px;
-}
-.about p {
-    text-align: justify;
-    margin-top: 5px;
-		font-size: 18px;
-		line-height: 1.5;
-		margin-bottom: 50px;
-		margin-left: 200px;
-		margin-right: 200px;
-}
-
-.about img{
-  display: block;
-  margin:  auto;
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
-}
-
-
-

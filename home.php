@@ -19,7 +19,7 @@
         <ul>
           <li> <a href="home.php">HOME</a></li>
             <li> <a href="menucoffee.php">MENU</a></li>
-            <li> <a href="#">FIND A STORE</a></li>
+            <li> <a href="findstore.php">FIND A STORE</a></li>
             <li> <a href="about.php">ABOUT US</a></li>       
             <li> <a href="#">CART</a></li>
             <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>

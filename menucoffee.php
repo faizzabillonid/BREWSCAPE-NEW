@@ -19,7 +19,7 @@
        <ul>
         <li> <a href="home.php">HOME</a></li>
           <li> <a href="menucoffee.php">MENU</a></li>
-          <li> <a href="#">FIND A STORE</a></li>
+          <li> <a href="findstore.php">FIND A STORE</a></li>
           <li> <a href="about.php">ABOUT US</a></li>       
           <li> <a href="#">  <i class="fa-solid fa-cart-shopping fa-bounce" style="color: #ffffff;"></i> CART</a></li>
           <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>
@@ -259,7 +259,20 @@
                
             </div>
 
+            </div>
+        <hr style="  border-top: 3px solid #c5bdbd; margin: 50px;">
+      <footer>
+        <div class="left">
+          © 2023 Brew Scape Coffee. All rights reserved.
+        </div>
+        <div class="right">
+          <a href="https://twitter.com"><i style="color: black;"class="fab fa-twitter"></i></a>
+          <a href="https://facebook.com"><i style="color: black;" class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com"><i style="color: black;" class="fab fa-instagram"></i></a>
 
+        </div>
+      </footer>
+      
             </div>
             </div>
 
