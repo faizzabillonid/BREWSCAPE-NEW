@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="css/about.css">
+    <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
+
     
 </head>
 
 <body>
+<<<<<<< HEAD
     
     <nav>
     <a href="home.php"><img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"></a>
@@ -23,9 +26,11 @@
             <li> <a href="about.php">ABOUT US</a></li>       
             <li> <a href="#">CART</a></li>
             <button onclick="window.location.href = 'signin.html';"id="signup-btn">Sign In</button>
+=======
+  <?php include 'Bars/navbar.php';?>
+>>>>>>> 837504b8be58cfcb06ba437c9103c865fb79faf4
 
-        </ul>
-    </nav>
+  
 
     <div class="image-container"> 
     <img src="Photos/about-coffee.png" id="home" style=" width: 100%; height: 500px;">

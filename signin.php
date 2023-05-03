@@ -14,6 +14,8 @@ include('config/dbconfig.php');
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <?php include 'Bars/navbar.php';?>

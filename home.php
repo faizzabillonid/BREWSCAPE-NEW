@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
+
+
     
 </head>
 
 <body>
     
+<<<<<<< HEAD
     <nav>
     <a href="home.php"> <img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"> </a>
         <!--<img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;">-->
@@ -27,6 +31,9 @@
 
         </ul>
     </nav>
+=======
+<?php include 'Bars/navbar.php';?>
+>>>>>>> 837504b8be58cfcb06ba437c9103c865fb79faf4
 
     <div class="image-container"> 
     <img src="Photos/coffeehome1.jpg" id="home" style=" width: 100%; height: 500px;">

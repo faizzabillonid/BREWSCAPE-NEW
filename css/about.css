@@ -24,11 +24,8 @@ background: #15120E;
 border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 color: white;
 z-index: 1;
-<<<<<<< HEAD
-=======
 overflow: hidden;
 
->>>>>>> d2824591bad892e19de5ce2884cca0e66f8d1ffa
 }
 nav ul{
     float: right;
@@ -221,3 +218,6 @@ nav ul li a:hover {
 
 
 
+.list-name :hover, .list-name :focus{
+  font-weight: 900;
+}
