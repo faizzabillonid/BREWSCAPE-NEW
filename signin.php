@@ -1,9 +1,4 @@
-<?php
-session_start();
-include('config/dbconfig.php');
 
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,13 +16,13 @@ include('config/dbconfig.php');
     <?php include 'Bars/navbar.php';?>
     <div class="form-container">
         
-        <form action="home.php" method="POST" class="form" >
+        <form action="code.php" method="POST" class="form" >
 
             <h2>SIGN IN</h2>
             <div class="row-grid">
                 <div class="rows">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter Email" required>
                 </div>
 
                 <div class="rows">

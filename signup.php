@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,12 +16,12 @@ session_start();
 <?php include 'Bars/navbar.php';?>
 
     <div class="signup-container">
-        <form action="signupcode.php" method="POST" class="form">
+        <form action="code.php" method="POST" class="form">
             <h2>SIGN UP</h2>
             <div class="row-grid">
                 <div class="row">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Enter Username" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter Email" required>
                 </div>
 
                 <div class="row">
