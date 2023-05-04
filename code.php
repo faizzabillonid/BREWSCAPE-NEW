@@ -7,21 +7,31 @@ if (isset($_POST['signup_btn'])) {
     // Retrieve the email and password from the form
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $usertype = $_POST['usertype'];
 
     // Hash the password using the bcrypt algorithm
     $hash = password_hash($password, PASSWORD_BCRYPT);
 
+    // set the default user type "user"
+    $usertype = 'user';
+
     // Connect to the database and insert the new user record
     $conn = new mysqli("localhost", "root", "", "brewscape");
-    $query = "INSERT INTO users (email, password) VALUES ('$email', '$hash')";
+    $query = "INSERT INTO users (email, password, usertype) VALUES ('$email', '$hash', '$usertype')";
     $conn->query($query);
 
     // Store the user ID in the session
     $_SESSION['user_id'] = $conn->insert_id;
+    $_SESSION['usertype'] = $usertype;
 
     // Redirect to the dashboard page
-    header("Location: signin.php");
-    exit;
+    if($usertype == 'admin') {
+        header('Location: admin.php');
+    } else {
+        header("Location: signin.php");
+        exit;
+    }
+   
 }
 
 // Handle login form submission
@@ -44,7 +54,16 @@ if (isset($_POST['signin_btn'])) {
         if (password_verify($password, $row['password'])) {
             // Password matches, store the user ID in the session and redirect to the dashboard page
             $_SESSION['user_id'] = $row['id'];
-            header("Location: home.php");
+            $_SESSION['usertype'] = $row['usertype'];
+            $_SESSION['user'] = [
+                'email' => $email,
+            ];
+
+            if($row['usertype'] == 'admin') {
+                header('Location: admin.php');
+            } else {
+                header("Location: home.php");
+            }
             exit;
         } else {
             // Password does not match, display an error message
