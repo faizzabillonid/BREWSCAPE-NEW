@@ -7,7 +7,7 @@
           <li> <a href="#">FIND A STORE</a></li>
           <li> <a href="about.php">ABOUT US</a></li>       
           <li> <a href="#"> <i class="fa-solid fa-cart-shopping fa-bounce" style="color: #ffffff;"></i> CART</a></li>
-          
+
           <?php if(isset($_SESSION['user'])) : ?>
           <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>
             <?= $_SESSION['user']['email']  ?>
@@ -17,4 +17,5 @@
             <?php endif ; ?>
 
       </ul>
-    </nav>  
+    </nav>
+ 

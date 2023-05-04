@@ -14,6 +14,7 @@
 
 </head>
 <body>
+<?php include 'Bars/navbar.php';?>
     <nav>
        <a href="home.php"> <img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"> </a>
        <ul>
