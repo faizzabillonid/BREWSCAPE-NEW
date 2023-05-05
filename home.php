@@ -15,8 +15,13 @@
 </head>
 
 <body>
-    
-<?php include 'Bars/navbar.php';?>
+
+<?php
+session_start();
+
+include 'Bars/navbar.php';
+
+?>
 
     <div class="image-container"> 
     <img src="Photos/coffeehome1.jpg" id="home" style=" width: 100%; height: 500px;">
