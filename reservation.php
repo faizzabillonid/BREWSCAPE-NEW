@@ -30,14 +30,15 @@ if (isset($_POST['submit'])) {
         // Insert reservation into database
         $sql = "INSERT INTO reservations (name, phone, datetime, num_people) VALUES ('$name', '$phone', '$datetime', '$num_people')";
         if (mysqli_query($conn, $sql)) {
-            echo "Reservation successfully booked.";
+            header("Location: signin.php");
+            exit;
         } else {
-            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+            header("Location: reservation.php");
+            exit;
         }
     }
 
-    header("Location: signin.php");
-    exit;
+    
 }
 ?>
 <!DOCTYPE html>
