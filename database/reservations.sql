@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 03, 2023 at 06:01 AM
+-- Generation Time: May 06, 2023 at 08:21 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -24,34 +24,33 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `reservations`
 --
 
-CREATE TABLE `users` (
-  `id` int(15) NOT NULL,
-  `email` varchar(500) NOT NULL,
-  `password` varchar(500) NOT NULL,
-  `usertype` varchar(10) NOT NULL
+CREATE TABLE `reservations` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `phone` int(11) NOT NULL,
+  `datetime` datetime NOT NULL,
+  `num_people` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `reservations`
 --
 
-INSERT INTO `users` (`id`, `email`, `password`, `usertype`) VALUES
-(1, 'mayjoy.cillo@urios.edu.ph', '$2y$10$1tc22giKQSVIZQ8DDm1LHuU9L8hmXgBXXMGQcWgteSsjmUStqMZP.', 'user'),
-(2, 'dark@gmail.com', '$2y$10$fK2wSLvjJnlNVNda864fsOIgi0rW5T8udp6xvjLAE3tZZ4pZAibBG', ''),
-(3, 'ahd@gmail.com', '$2y$10$DelF38CZR21TXpGnZ0p93.C9Wl6yTuDitEI60/X7pqGT6G8FLEx4C', ''),
-(4, 'ahd@gmail.com', '$2y$10$UsXOZ9VxtsUBrw92VPm.be2bLSCuK5R.dXS5wlEAwjpBEcfxX8Q7K', '');
+INSERT INTO `reservations` (`id`, `name`, `phone`, `datetime`, `num_people`) VALUES
+(1, 'joy', 2147483647, '2023-05-06 13:00:00', 2),
+(8, 'admin', 2147483647, '2023-05-26 17:30:00', 4);
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `users`
+-- Indexes for table `reservations`
 --
-ALTER TABLE `users`
+ALTER TABLE `reservations`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -59,10 +58,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `reservations`
 --
-ALTER TABLE `users`
-  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+ALTER TABLE `reservations`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

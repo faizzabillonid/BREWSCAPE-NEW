@@ -26,7 +26,7 @@ if (isset($_POST['signup_btn'])) {
 
     // Redirect to the dashboard page
     if($usertype == 'admin') {
-        header('Location: admin.php');
+        header('Location: res_list.php');
     } else {
         header("Location: signin.php");
         exit;
@@ -60,7 +60,7 @@ if (isset($_POST['signin_btn'])) {
             ];
 
             if($row['usertype'] == 'admin') {
-                header('Location: admin.php');
+                header('Location: res_list.php');
             } else {
                 header("Location: home.php");
             }

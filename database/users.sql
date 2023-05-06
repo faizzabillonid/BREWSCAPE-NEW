@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 29, 2023 at 06:56 AM
+-- Generation Time: May 06, 2023 at 08:22 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -18,37 +18,38 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `login_db`
+-- Database: `brewscape`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `customers_signup`
+-- Table structure for table `users`
 --
 
-CREATE TABLE `customers_signup` (
-  `id` int(12) NOT NULL,
-  `username` varchar(500) NOT NULL,
+CREATE TABLE `users` (
+  `id` int(15) NOT NULL,
+  `email` varchar(500) NOT NULL,
   `password` varchar(500) NOT NULL,
-  `cpassword` varchar(500) NOT NULL
+  `usertype` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `customers_signup`
+-- Dumping data for table `users`
 --
 
-INSERT INTO `customers_signup` (`id`, `username`, `password`, `cpassword`) VALUES
-(1, 'ved', '1234', '1234');
+INSERT INTO `users` (`id`, `email`, `password`, `usertype`) VALUES
+(1, 'mayjoy.cillo@urios.edu.ph', '$2y$10$1tc22giKQSVIZQ8DDm1LHuU9L8hmXgBXXMGQcWgteSsjmUStqMZP.', 'user'),
+(8, 'faizzabillonid@gmail.com', '$2y$10$lTfHDorhrx2XuxKxF3PBKOe.nDcrX4Nj10pto3lolpEJjSdzAJL2a', 'user');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `customers_signup`
+-- Indexes for table `users`
 --
-ALTER TABLE `customers_signup`
+ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -56,10 +57,10 @@ ALTER TABLE `customers_signup`
 --
 
 --
--- AUTO_INCREMENT for table `customers_signup`
+-- AUTO_INCREMENT for table `users`
 --
-ALTER TABLE `customers_signup`
-  MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `users`
+  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
