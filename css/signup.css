@@ -166,3 +166,13 @@ a {
     height: 530px;
 }
 
+.reservation-container {
+    display: flex;
+    width: 900px;
+    height: 650px;
+    border: 1px solid;
+    color: black;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px #F2DEC1;
+}
