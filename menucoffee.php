@@ -54,8 +54,8 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
-                             <img src="img\menu_cafelatte.png"    alt="">          
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_cafelatte1.png"    alt="">          
                          </div>
                              <div class="card-bottom"> 
                               <p id="item-name">Cafe Latte</p> 
@@ -69,8 +69,8 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5 </i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
-                                <img src="img\menu_cappuccino1.png" alt="">          
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                                <img src="img\menu_cappuccino.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
                               <p id="item-name">Cappuccino</p> 
@@ -86,7 +86,7 @@
                                 <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5 </i>
-                                        <i class="fa fa-shopping-cart"> Add to Cart</i>
+                                        <i class="fa fa-shopping-cart"> BEST SELLER</i>
                                         <img src="img\menu_macchiato1.png" alt="">
                                     </div>
                                    <div class="card-bottom">
@@ -102,8 +102,8 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5 </i>
-                                        <i class="fa fa-shopping-cart">Add to Cart</i>
-                                         <img src="img\menu_americano.png" style=" margin-top:0px;" alt="" >
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_americano1.png" style=" margin-top:0px;" alt="" >
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name"> Cafe Americano  </p>
@@ -113,17 +113,256 @@
                                     </div>
                             </div> 
                         </div>
+                           <!-- 5th card -->
+                           <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_cafemocha.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name"> Cafe Mocha </p>
+                                        <p class="item-description"> </p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
 
-                            <!-- 5th card -->
+                                    </div>
+                                    </div> 
+                            </div>
+                             <!-- 6th card -->
+                             <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                         <img src="img\menu_flatwhite.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Flat White</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                            <!-- 6th card -->
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">  5 </i>
-                                        <i class="fa fa-shopping-cart">Add to Cart</i>
-                                         <img src="img\menu_greentea.png" style="height:180px; width: 240px; margin-top:15px;" alt="" >
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_hotchocolate.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Hot Chocolate</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                         <img src="img\menu_whitechocomocha.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">White Chocolate Mocha</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_darklatte.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Dark Chocolate Latte</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+
+                            <!-- 6th card -->
+                            <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_espresso.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Espresso</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_greentea1.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Green Tea</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                       
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_icedamericano.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Iced Americano</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_icedcapuccino.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Iced Cappuccino</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                                         <img src="img\menu_icedlatte.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Iced Latte</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_icedmatcha.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Iced Matcha Latte</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                               <!-- 6th card -->
+                               <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_icedmocha.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Iced Mocha</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                             <!-- 6th card -->
+                             <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_icecaramelmacchiato.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Iced Caramel Macchiato</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                             <!-- 6th card -->
+                             <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_caramelfrap.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Caramel Frappe</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                             <!-- 6th card -->
+                             <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_darkchocofrap.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Dark Chocolate Frappe</p>
+                                        <p class="item-description"> Camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+
+                                    </div>
+                                    </div> 
+                            </div>
+                             <!-- 6th card -->
+                             <div id="col-sm-4">
+                                    <div id="item-card">           
+                                    <div id="card-top">
+                                        <i class="fa fa-star" id="rating">  5 </i>
+                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                         <img src="img\menu_coffeefrap.png"  alt="" >
+                                    </div>
+                                    <div class="card-bottom">
+                                            <p id="item-name">Coffee Frappe</p>
                                         <p class="item-description"> Camellia sinensis plant</p>
                                         <p id="item-price" style="font-size: 28px;">₱150.00</p>
 
@@ -141,7 +380,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5 </i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_waffles1.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -156,7 +395,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5 </i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_muffin.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -171,7 +410,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5 </i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_cookie.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -186,7 +425,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5 </i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_brownies.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -196,6 +435,162 @@
                             </div>
                         </div>
                     </div>
+                           <!--  4th card BREAD -->
+                           <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_butter.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                           <!--  4th card BREAD -->
+                           <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_almond.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                         <!--  4th card BREAD -->
+                         <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_hamcheese.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                           <!--  4th card BREAD -->
+                           <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_cinammon.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                     <!--  4th card BREAD -->
+                     <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_chococookie.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                         <!--  4th card BREAD -->
+                         <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_plainbagel.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" >₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                 <!--  4th card BREAD -->
+                 <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_strawberrycake1.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price" >₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                         <!--  4th card BREAD -->
+                         <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\bread_chocolat.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                          <!--  4th card BREAD -->
+                          <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_chochojamdonut.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                          <!--  4th card BREAD -->
+                          <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5 </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\bread_bacondanish.png" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name"> Brownies </p> 
+                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                             <p id="item-price" class="item-price">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+
+
 
 
 
@@ -212,7 +607,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_pancakes.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -229,7 +624,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_englishbreakfast.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -244,8 +639,23 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5</i>
-                                <i class="fa fa-shopping-cart"> Add to Cart </i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
                              <img src="img\menu_benedict.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Eggs Benedict</p> 
+                            <p class="item-description"> English muffin, Canadian bacon, poached egg, and hollandaise sauce </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>  
+                              <!-- 1st card BREAD -->
+                              <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\menu_pestopasta.png"  alt="">          
                          </div>
                              <div class="card-bottom"> 
                               <p id="item-name">Eggs Benedict</p> 

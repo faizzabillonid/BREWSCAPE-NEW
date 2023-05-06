@@ -6,7 +6,7 @@
           <li> <a href="menucoffee.php">MENU</a></li>
           <li> <a href="findstore.php">FIND A STORE</a></li>
           <li> <a href="about.php">ABOUT US</a></li>       
-          <li> <a href="#"> <i class="fa-solid fa-cart-shopping fa-bounce" style="color: #ffffff;"></i> CART</a></li>
+          <li> <a href="#"> <i class="fa-solid fa-bell-concierge fa-xs" style="color: #ffffff;"></i> TABLE RESERVATION</a></li>
 
           <?php if(isset($_SESSION['user'])) : ?>
           <button onclick="window.location.href = 'signin.php';"id="signup-btn">Sign In</button>

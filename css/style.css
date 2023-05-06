@@ -359,11 +359,12 @@ nav ul li a:hover {
   #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
   }
 
   #customers tr:nth-child(even){background-color: #f2f2f2;}
 
-  #customers tr:hover {background-color: #ddd;}
+  #customers tr:hover {background-color: #e6c984;}
 
   #customers th {
     padding-top: 12px;
@@ -371,4 +372,8 @@ nav ul li a:hover {
     text-align: left;
     background-color: #F2DEC1;
     color: black;
+  }
+
+  .list-name:active {
+    font-weight: bold;
   }
