@@ -600,7 +600,7 @@
                 </div>
 
                  <!-- BREAKFAST MEALS SECTION -->
-                 <p class="category-name" id="breakfast">Breakfast Meals</p>
+                 <p class="category-name" id="breakfast" style="margin-top: 80px;">Breakfast Meals</p>
                             <div class="row">
                        <!-- 1st card BREAD -->
                        <div class="col-sm-4">
