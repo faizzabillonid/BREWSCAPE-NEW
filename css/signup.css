@@ -57,7 +57,7 @@ body {
 .rows {
     display: grid;
     position: relative;
-    gap: 1rem;
+ 
     z-index: 1000;
     transform: translateY(-1rem);
     padding-bottom: 1rem;

@@ -37,7 +37,7 @@
                 <div class="rows">
                     <button type="signin" id="signupbtn" name="signup_btn" >Sign Up</a></button>
 
-                    <span class="registerlink">Already have an account? <a href="signin.php">Sign In Here!</a></span>
+                    <span class="registerlink" style="margin-top: 15px;">Already have an account?<a href="signin.php"> Sign In Here!</a></span>
                 </div>
             </div>
         </form>
