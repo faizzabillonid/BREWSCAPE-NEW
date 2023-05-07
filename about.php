@@ -41,18 +41,9 @@
   <p>Our coffee shop is located in the heart of downtown, Butuan City. just a few blocks from the main square. Our address is 656 San Francisco Street Barangay Diego Silang, and we're situated in a charming old building with lots of character. You'll recognize us by our bright red awning and the smell of fresh coffee wafting out of our doors.</p>
 
       </div>
-        <hr style="  border-top: 3px solid #c5bdbd; margin: 50px;">
-      <footer>
-        <div class="left">
-          © 2023 Brew Scape Coffee. All rights reserved.
-        </div>
-        <div class="right">
-          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-          <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-        </div>
-      </footer>
-      
+      <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">
+      <!--footer-->
+        <?php  include 'Bars/footer.php';?>
     
     
 </body>

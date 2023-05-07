@@ -1,6 +1,4 @@
 <footer>
-
-<hr style="  border-top: 3px solid #c5bdbd; margin: 50px;">
         <div class="left">
           © 2023 Brew Scape Coffee. All rights reserved.
         </div>
@@ -12,4 +10,6 @@
         </div>
       </footer>
 
- 
+      <div class="loader">
+   <img src="img/loader.gif" alt="">
+</div>

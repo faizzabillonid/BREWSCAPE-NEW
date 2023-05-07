@@ -173,13 +173,13 @@ nav ul li a:hover {
   }
 
   footer {
-   margin: 50px;
-    color:gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
+    margin: 50px;
+     color:rgb(89, 89, 89);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ 
+   }
   .right {
     display: flex;
     gap: 11px;
@@ -390,3 +390,20 @@ nav ul li a:hover {
   .list-name:active {
     font-weight: bold;
   }
+
+  /* LOADER */
+
+  .loader{
+    position: fixed;
+    top:0; left:0; right:0; bottom: 0;
+    z-index: 1000000;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .loader img{
+    height: 25rem;
+ }
+ 

@@ -9,6 +9,7 @@
     <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="script.js">
 
 
     
@@ -48,7 +49,8 @@ include 'Bars/navbar.php';
           </div>
         </div>
 </div>
-    
+      <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">
+      <!--footer-->
         <?php  include 'Bars/footer.php';?>
     
 </body>

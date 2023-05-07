@@ -30,18 +30,10 @@
 <iframe src="https://my.atlistmaps.com/map/42e208e9-22f2-44f8-8680-d993b5d11976?share=true" allow="geolocation 'self' https://my.atlistmaps.com" width="100%" height="1000px%" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
     </div>
-        <hr style="  border-top: 3px solid #c5bdbd; margin: 50px;">
-    <footer>
-        <div class="left">
-          © 2023 Brew Scape Coffee. All rights reserved.
-        </div>
-        <div class="right">
-          <a href="https://twitter.com"><i style="color: black;"class="fab fa-twitter"></i></a>
-          <a href="https://facebook.com"><i style="color: black;" class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com"><i style="color: black;" class="fab fa-instagram"></i></a>
-
-        </div>
-      </footer>
+        
+        <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">
+      <!--footer-->
+        <?php  include 'Bars/footer.php';?>
 
 </body>
 </html>
