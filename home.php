@@ -47,21 +47,9 @@ include 'Bars/navbar.php';
             </div>
           </div>
         </div>
-      </div>
-        <hr style="  border-top: 3px solid #c5bdbd; margin: 50px;">
-      <footer>
-        <div class="left">
-          © 2023 Brew Scape Coffee. All rights reserved.
-        </div>
-        <div class="right">
-          <a href="https://twitter.com"><i style="color: black;"class="fab fa-twitter"></i></a>
-          <a href="https://facebook.com"><i style="color: black;" class="fab fa-facebook"></i></a>
-          <a href="https://instagram.com"><i style="color: black;" class="fab fa-instagram"></i></a>
-
-        </div>
-      </footer>
-      
+</div>
     
+        <?php  include 'Bars/footer.php';?>
     
 </body>
 </html>
