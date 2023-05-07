@@ -52,6 +52,8 @@ include 'Bars/navbar.php';
       <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">
       <!--footer-->
         <?php  include 'Bars/footer.php';?>
+        <!-- custom js file link  -->
+        <script src="script.js"></script>
     
 </body>
 </html>

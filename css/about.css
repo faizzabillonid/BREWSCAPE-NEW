@@ -208,16 +208,17 @@ nav ul li a:hover {
 		margin-right: 200px;
 }
 
-.about img{
-    display: block;
-		margin:  auto;
-		max-width: 100%;
-		height: auto;
-		margin-top: 20px;
-}
 
+.aboutimg{
+  display: block;
+  margin:  auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
 
 
 .list-name :hover, .list-name :focus{
   font-weight: 900;
 }
+
