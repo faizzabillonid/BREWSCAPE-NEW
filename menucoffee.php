@@ -522,7 +522,7 @@
                              <div class="card-bottom"> 
                               <p id="item-name"> Brownies </p> 
                             <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
-                             <p id="item-price" class="item-price" >₱150.00</p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px" >₱150.00</p>
                             </div>
                         </div>
                     </div>
@@ -537,7 +537,7 @@
                              <div class="card-bottom"> 
                               <p id="item-name"> Brownies </p> 
                             <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
-                             <p id="item-price" class="item-price" >₱150.00</p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
                     </div>
@@ -552,7 +552,7 @@
                              <div class="card-bottom"> 
                               <p id="item-name"> Brownies </p> 
                             <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
-                             <p id="item-price" class="item-price">₱150.00</p>
+                             <p id="item-price" class="item-price"style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
                     </div>
@@ -567,7 +567,7 @@
                              <div class="card-bottom"> 
                               <p id="item-name"> Brownies </p> 
                             <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
-                             <p id="item-price" class="item-price">₱150.00</p>
+                             <p id="item-price" class="item-price"style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
                     </div>
@@ -582,7 +582,7 @@
                              <div class="card-bottom"> 
                               <p id="item-name"> Brownies </p> 
                             <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
-                             <p id="item-price" class="item-price">₱150.00</p>
+                             <p id="item-price" class="item-price"style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
                     </div>
