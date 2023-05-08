@@ -52,6 +52,7 @@ body {
 .form h2 {
     font-size: 3rem;
     margin: 35px;
+    text-align: center;
 }
 
 .rows {
@@ -74,11 +75,11 @@ label {
 
 input {
     width: 100%;
-    background: var(--inputColor);
+    background-color: var(--inputColor);
     border: 3px solid #F2DEC1;
     outline: none;
     color: black;
-    font-weight: 500;
+    font-weight: 300;
     padding: .5rem;
     border-radius: 3px;
 }
@@ -176,3 +177,5 @@ a {
     margin-top: 50px;
     box-shadow: 15px 15px #F2DEC1;
 }
+
+

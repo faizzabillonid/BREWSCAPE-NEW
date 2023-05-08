@@ -49,7 +49,7 @@
                 <p class="category-name" id="coffee">Coffee</p>
                 <!-- ROW -->
                 <div class="row">
-                    <!-- 1st card -->
+                    <!-- 1st card COFFEE -->
                     <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 2nd card -->
+                    <!-- 2nd card COFFEE-->
                     <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
@@ -81,7 +81,7 @@
                             </div>
 
                     </div>
-                             <!-- 3rd card -->
+                             <!-- 3rd card COFFEE -->
                              <div class="col-sm-4">
                                 <div id="item-card">           
                                     <div id="card-top">
@@ -97,7 +97,7 @@
                                 </div>
                             </div>
 
-                               <!-- 4th card -->
+                               <!-- 4th card COFFEE-->
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
@@ -113,7 +113,7 @@
                                     </div>
                             </div> 
                         </div>
-                           <!-- 5th card -->
+                           <!-- 5th card COFFEE-->
                            <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
@@ -123,8 +123,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name"> Cafe Mocha </p>
-                                        <p class="item-description"> </p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Espresso, mocha sauce and steamed milk topped with whipped cream</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -138,13 +138,13 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Flat White</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description">  Espresso with microfoam (steamed milk with velvety consistency).</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
                             </div>
-                            <!-- 6th card -->
+                            <!-- 7th card COFFEE-->
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
@@ -154,8 +154,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Hot Chocolate</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Steamed milk and mocha syrup topped with whipped cream,</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -169,8 +169,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">White Chocolate Mocha</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> A blend of espresso coffee, white chocolate and milk</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top: 0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -185,8 +185,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Dark Chocolate Latte</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description">Dark chocolate, mocha syrup topped with chocolate cream and curls.</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -202,8 +202,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Espresso</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Finely ground, 100% coffee, and hot water.</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -218,8 +218,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Green Tea</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> made solely from the leaves of the camellia sinensis plant</p>
+                                        <p id="item-price" style="font-size: 28px;margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -235,8 +235,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Iced Americano</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Combining signature espresso with water and pouring it over ice to chill</p>
+                                        <p id="item-price" style="font-size: 28px;margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -251,8 +251,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Iced Cappuccino</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Espresso with cold milk and ice topped with of frothed milk</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -267,8 +267,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Iced Latte</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Made with Ice, a shot of espresso and cold milk</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -283,8 +283,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Iced Matcha Latte</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Matcha green tea and milk, lightly sweetened and served over ice</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -298,9 +298,9 @@
                                          <img src="img\menu_icedmocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
-                                            <p id="item-name">Iced Mocha</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                            <p id="item-name">Iced Cafe Mocha</p>
+                                        <p class="item-description"> Espresso, mocha syrup, and ice topped with whipped cream</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -315,8 +315,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Iced Caramel Macchiato</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Espresso, vanilla syrup, cold milk, ice topped with caramel sauce</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -331,8 +331,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Caramel Frappe</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> made by blending ice, milk, coffee, and caramel syrup together </p>
+                                        <p id="item-price" style="font-size: 28px; margin-top: 0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -347,8 +347,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Dark Chocolate Frappe</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Dark chocolate and mocha syrup blended with milk and ice </p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -363,8 +363,8 @@
                                     </div>
                                     <div class="card-bottom">
                                             <p id="item-name">Coffee Frappe</p>
-                                        <p class="item-description"> Camellia sinensis plant</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p class="item-description"> Made by blending ice, milk, sugar, and espresso together</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
 
                                     </div>
                                     </div> 
@@ -444,8 +444,8 @@
                              <img src="img\menu_butter.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Butter Croissant </p> 
+                            <p class="item-description">  Flaky, crescent-shaped pastry that is layered with butter </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -459,8 +459,8 @@
                              <img src="img\menu_almond.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Almond Croissant </p> 
+                            <p class="item-description">  Flaky croissant filled with almond paste, topped with sliced almonds </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -474,8 +474,8 @@
                              <img src="img\menu_hamcheese.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Ham & Cheese Croissant </p> 
+                            <p class="item-description">  Triple smoked ham with cheddar sandwiched in a buttery croissant </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -490,8 +490,8 @@
                              <img src="img\menu_cinammon.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Cinnamon Scroll </p> 
+                            <p class="item-description"> Fluffy dough swirled with cinnamon sugar, topped with a sweet glaze </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -505,8 +505,8 @@
                              <img src="img\menu_chococookie.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Chocolate Chip Cookie </p> 
+                            <p class="item-description">  Classic cookie with soft and chewy texture, loaded with chocolate chips  </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -520,8 +520,8 @@
                              <img src="img\menu_plainbagel.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Bagel </p> 
+                            <p class="item-description">   Classic chewy bagel with cream cheese </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px" >₱150.00</p>
                             </div>
                         </div>
@@ -535,8 +535,8 @@
                              <img src="img\menu_strawberrycake1.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Strawberry Cake </p> 
+                            <p class="item-description">  Moist cake with strawberry flavor, layered with strawberry buttercream </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -550,8 +550,8 @@
                              <img src="img\bread_chocolat.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Pain au Chocolat </p> 
+                            <p class="item-description">  Traditional French-style  croissant oozing with chocolate filling </p>
                              <p id="item-price" class="item-price"style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -565,8 +565,8 @@
                              <img src="img\menu_chochojamdonut.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Strawberry Jam Donut </p> 
+                            <p class="item-description"> Donut topped with chocolate glaze filled with strawberry jam</p>
                              <p id="item-price" class="item-price"style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -580,8 +580,8 @@
                              <img src="img\bread_bacondanish.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name"> Brownies </p> 
-                            <p class="item-description">  Made with high-quality cocoa powder and melted chocolate </p>
+                              <p id="item-name"> Cheese & Bacon Danish </p> 
+                            <p class="item-description"> Flakey and buttery pastry filled with melted cheese and bacon. </p>
                              <p id="item-price" class="item-price"style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -658,8 +658,23 @@
                              <img src="img\menu_pestopasta.png"  alt="">          
                          </div>
                              <div class="card-bottom"> 
-                              <p id="item-name">Eggs Benedict</p> 
-                            <p class="item-description"> English muffin, Canadian bacon, poached egg, and hollandaise sauce </p>
+                              <p id="item-name">Pesto Pasta</p> 
+                            <p class="item-description">  Pasta with basil sauce made with garlic, olive oil, and cheese </p>
+                             <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- 1st card BREAD -->
+                        <div class="col-sm-4">
+                        <div id="item-card">           
+                            <div id="card-top">
+                                <i class="fa fa-star" id="rating">  5</i>
+                                <i class="fa fa-shopping-cart"> BEST SELLER </i>
+                             <img src="img\break_bolognese.png"  alt="">          
+                         </div>
+                             <div class="card-bottom"> 
+                              <p id="item-name">Bolognese Pasta</p> 
+                            <p class="item-description">  Pasta with ground beef meat sauce, tomatoes, garlic, onions, and herbs  </p>
                              <p id="item-price" class="item-price" style=" margin-top:0px">₱150.00</p>
                             </div>
                         </div>
@@ -684,9 +699,9 @@
             </div>
             <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">
       <!--footer-->
-        <?php  include 'Bars/footer.php';?>
-          <!-- custom js file link  -->
-          <script src="script.js"></script>
+      <!--  <?php  include 'Bars/footer.php';?>
+          custom js file link  
+          <script src="script.js"></script> -->
 
 </body>
 </html>

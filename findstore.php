@@ -15,19 +15,7 @@
 
 <body>
     
-    <nav>
-    <a href="home.php"><img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;"></a>
-        <!--<img src="img/Brewscape_Mug_white.png" style=" width: 120px; height: 120px;">-->
-        <ul>
-          <li> <a href="home.php">HOME</a></li>
-            <li> <a href="menucoffee.php">MENU</a></li>
-            <li> <a href="findstore.php">FIND A STORE</a></li>
-            <li> <a href="about.php">ABOUT US</a></li>       
-            <li> <a href="#">CART</a></li>
-            <button onclick="window.location.href = 'signin.html';"id="signup-btn">Sign In</button>
-
-        </ul>
-    </nav>
+            <?php include 'Bars/navbar.php';?>
 
 <iframe src="https://my.atlistmaps.com/map/42e208e9-22f2-44f8-8680-d993b5d11976?share=true" allow="geolocation 'self' https://my.atlistmaps.com" width="100%" height="1000px%" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
