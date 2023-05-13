@@ -90,11 +90,11 @@ if (isset($_POST['submit'])) {
 
                 <div class="rows">
                     <label for="schedule">Table for:</label>
-                    <input type="number" id="schedule" name="num_people" placeholder="Enter Table for:" required>
+                    <input type="number" id="schedule" name="num_people" placeholder="Enter Table for:" min="1" max="10"required>
                 </div>
 
-                <div class="rows">
-                    <input type="submit" name="submit" value="Book">
+                <div id="reserve"class="rows" >
+                    <input id="reserve"type="submit" name="submit" value="Book">
                 </div>
     </div>
     </form>

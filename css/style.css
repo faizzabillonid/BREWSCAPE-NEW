@@ -68,8 +68,13 @@ nav ul li a:hover {
     margin-top: 16px;
     right: -10%;
     cursor: pointer;
+    transition: 0.3s;
 }
 
+
+.discover:hover {
+  transform: translate(0em, 0.2em);
+ }
 #signup-btn {
     background: transparent;
     border: 2px solid white;
@@ -121,7 +126,6 @@ nav ul li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
-    max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
   }
@@ -165,31 +169,46 @@ nav ul li a:hover {
     font-size: 20px;
     font-weight: 500;
     margin-top: 50px;
-
+    transition: 0.3s;
   }
 
   .home-btns:hover {
     background: white;
     color: black;
+  
   }
 
   footer {
-   margin: 50px;
-    color:gray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
+    margin: 50px;
+     color:rgb(89, 89, 89);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ 
+   }
   .right {
     display: flex;
     gap: 11px;
+  
+  }
 
-  }
-  .right a i {
+  .right a i{
     font-size: 1.5rem;
-    
+    BACKGROUND-COLOR: black;
+    padding: 23px 13px;
+    border-radius: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
   }
+
+  .right a i:hover{
+    background-color: rgb(211, 211, 211);
+    color: black;
+  }
+
 
   /* THIS IS MENU COFFEE CSS*/
 
@@ -227,7 +246,7 @@ nav ul li a:hover {
   #item-card {
     width: 280px;
     height: 400px;
-    padding: 30px 0 20px 0px;
+    padding: 20px 0 20px 0px;
     margin: 20px;
     border-radius: 5px;
     background: beige;
@@ -333,7 +352,7 @@ nav ul li a:hover {
     box-sizing: content-box;
     width: 100%;
     margin-left: 80px;
-    max-height: 500px;
+    max-height: 800px;
   }
 
 
@@ -359,11 +378,12 @@ nav ul li a:hover {
   #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
   }
 
   #customers tr:nth-child(even){background-color: #f2f2f2;}
 
-  #customers tr:hover {background-color: #ddd;}
+  #customers tr:hover {background-color: #e6c984;}
 
   #customers th {
     padding-top: 12px;
@@ -372,3 +392,36 @@ nav ul li a:hover {
     background-color: #F2DEC1;
     color: black;
   }
+
+ 
+
+  /* LOADER */
+
+  .loader{
+    position: fixed;
+    top: 0; left:0; right:0; bottom: 0;
+    z-index: 1000000;
+    background-color: #E4D2C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .loader img{
+    height: 25rem;
+ }
+ 
+ .row-grid{
+  width: 350px;
+ }
+
+#reserve{
+  cursor: pointer;
+}
+
+#reserve:hover{
+    background-color: #F2DEC1;  
+    overflow: hidden;
+    height: 40px;
+    transition: 0.3s
+}
