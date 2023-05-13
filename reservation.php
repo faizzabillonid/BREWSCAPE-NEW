@@ -74,6 +74,16 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <div class="rows">
+                <label for="dropdown">Brewscape Location</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="option">Brewscape Main Branch</option>
+                        <option value="option">Brewscape SM City Butuan</option>
+                        <option value="option">Brewscape Watergate Hotel</option>
+                    </select>
+                </div>
+
+                <div class="rows">
                     <label for="table">Schedule</label>
                     <input type="datetime-local" id="datetime" name="datetime" min="1" max="8" placeholder="Choose your desired schedule" required>
                 </div>
