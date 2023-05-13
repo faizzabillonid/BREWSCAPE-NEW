@@ -170,7 +170,7 @@ a {
 .reservation-container {
     display: flex;
     width: 900px;
-    height: 745px;
+    height: 750px;
     border: 1px solid;
     color: black;
     margin: auto;
@@ -178,7 +178,7 @@ a {
     box-shadow: 15px 15px #F2DEC1;
 }
 
-#dropdown {
+#location {
     width: 100%;
     background: var(--inputColor);
     border: 3px solid #F2DEC1;
@@ -188,4 +188,17 @@ a {
     padding: .5rem;
     border-radius: 3px;
 }
+
+.side-reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.side-reservation img {
+    width: 390px;
+    height: 685px;
+}
+
 

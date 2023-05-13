@@ -16,11 +16,12 @@ if (isset($_POST['submit'])) {
     // Get form data
     $name = $_POST['name'];
     $phone = $_POST['phone'];
+    $shop_location = $_POST['location'];
     $datetime = $_POST['datetime'];
     $num_people = $_POST['num_people'];
 
     // Validate form data
-    if (empty($name) || empty($phone) || empty($datetime) || empty($num_people)) {
+    if (empty($name) || empty($phone) || empty($shop_location) || empty($datetime) || empty($num_people)) {
         echo "Please fill in all required fields.";
     } elseif (strtotime($datetime) < time()) {
         echo "Please choose a date/time in the future.";
@@ -28,7 +29,7 @@ if (isset($_POST['submit'])) {
         echo "Please choose a number of people between 1 and 20.";
     } else {
         // Insert reservation into database
-        $sql = "INSERT INTO reservations (name, phone, datetime, num_people) VALUES ('$name', '$phone', '$datetime', '$num_people')";
+        $sql = "INSERT INTO reservations (name, phone, shop_location, datetime, num_people) VALUES ('$name', '$phone', '$shop_location', '$datetime', '$num_people')";
         if (mysqli_query($conn, $sql)) {
             header("Location: signin.php");
             exit;
@@ -74,12 +75,12 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <div class="rows">
-                <label for="dropdown">Brewscape Location</label>
-                    <select id="dropdown" name="dropdown">
-                        <option value="" disabled selected>Select an option</option>
-                        <option value="option">Brewscape Main Branch</option>
-                        <option value="option">Brewscape SM City Butuan</option>
-                        <option value="option">Brewscape Watergate Hotel</option>
+                <label for="location">Branch Location</label>
+                    <select id="location" name="location">
+                        <option value="none" selected disabled hidded>Select an option</option>
+                        <option value="Brewscape Main Branch">Brewscape Main Branch</option>
+                        <option value="Brewscape SM City Butuan">Brewscape SM City Butuan</option>
+                        <option value="Brewscape Watergate Hotel">Brewscape Watergate Hotel</option>
                     </select>
                 </div>
 
@@ -98,6 +99,9 @@ if (isset($_POST['submit'])) {
                 </div>
     </div>
     </form>
+    <div class="side-reservation">
+            <img src="Photos\reservation.jpg" alt="">
+        </div>
 </div>
 </body>
 </html>
