@@ -10,7 +10,6 @@
    <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
 
-
 </head>
 <body>
     
@@ -29,6 +28,7 @@
   <tr>
     <th>Name</th>
     <th>Phone Number</th>
+    <th>Branch Location</th>
     <th>Schedule</th>
     <th>Table for:</th>
   </tr>
@@ -43,7 +43,9 @@
             <tr>
                 <td><?php echo $row['name']; ?></td>
                 <td><?php echo $row['phone']; ?></td>
-                <td><?php echo date('F d, Y  h:i A', strtotime($row['datetime'])); ?></td> 
+                
+                <td><?php echo $row['shop_location']; ?></td>
+              <td><?php echo date('F d, Y  h:i A', strtotime($row['datetime'])); ?></td> 
                 <td><?php echo $row['num_people']; ?></td>
             </tr>
             <?php
