@@ -388,7 +388,7 @@ nav ul li a:hover {
   #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #F2DEC1;
     color: black;
   }

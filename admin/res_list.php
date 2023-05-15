@@ -43,7 +43,7 @@
             <tr>
                 <td><?php echo $row['name']; ?></td>
                 <td><?php echo $row['phone']; ?></td>
-                <td><?php echo $row['datetime']; ?></td>
+                <td><?php echo date('F d, Y  h:i A', strtotime($row['datetime'])); ?></td> 
                 <td><?php echo $row['num_people']; ?></td>
             </tr>
             <?php
