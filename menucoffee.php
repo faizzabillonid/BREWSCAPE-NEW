@@ -77,7 +77,7 @@
                               <p id="item-name">Cappuccino</p> 
                             <p class="item-description">Single espresso shot with hot milk.</p>
                             
-                             <p id="item-price" class="item-price" style="font-size:28px;">₱150.00</p>
+                             <p id="item-price" class="item-price" style="font-size: 28px;">₱150.00</p>
                      </div>
                             </div>
 
@@ -92,7 +92,7 @@
                                    <div class="card-bottom">
                                         <p id="item-name">Macchiato</p>
                                         <p class="item-description">Espresso "stained" with a dollop of milk foam.</p>
-                                        <p id="item-price" style=" font-size:28px;">₱150.00</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
                                     </div>
                                 </div>
                             </div>
