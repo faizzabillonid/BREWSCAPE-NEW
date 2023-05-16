@@ -259,7 +259,7 @@ nav ul li a:hover {
   }
 
   #card-top {
-    display: flex;
+    display: inline-block;
     margin: 5px 0;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -277,6 +277,7 @@ nav ul li a:hover {
     background: black;
     font-size: 14px;
     border-radius: 14px;
+    max-height: 30px;
   }
 
   .fa-shopping-cart {
@@ -352,7 +353,7 @@ nav ul li a:hover {
     box-sizing: content-box;
     width: 100%;
     margin-left: 80px;
-    max-height: 800px;
+    max-height: 500px;
   }
 
 

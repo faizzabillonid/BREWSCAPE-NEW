@@ -53,11 +53,12 @@
                     <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER </i>
-                             <img src="img\menu_cafelatte1.png"    alt="">          
+                            <i class="fa fa-star" id="rating"> BEST SELLER </i>
+                      
+                                
                          </div>
                              <div class="card-bottom"> 
+                             <img src="img\menu_cafelatte1.png"    alt="">       
                               <p id="item-name">Cafe Latte</p> 
                             <p class="item-description">Espresso with milk.</p>
                              <p id="item-price" class="item-price" style=" font-size:28px;">₱150.00</p>
@@ -68,8 +69,8 @@
                     <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                <i class="fa fa-star" id="rating"> BEST SELLER </i>
+                           
                                 <img src="img\menu_cappuccino.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -85,8 +86,7 @@
                              <div class="col-sm-4">
                                 <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                        <i class="fa fa-star" id="rating"> BEST SELLER </i>
                                         <img src="img\menu_macchiato1.png" alt="">
                                     </div>
                                    <div class="card-bottom">
@@ -101,8 +101,7 @@
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                        <i class="fa fa-star" id="rating">BEST SELLER</i>
                                          <img src="img\menu_americano1.png" style=" margin-top:0px;" alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -118,7 +117,7 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                        <i>BEST SELLER</i>
                                          <img src="img\menu_cafemocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -134,7 +133,7 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                       
                                          <img src="img\menu_flatwhite.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -150,7 +149,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_hotchocolate.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -165,8 +163,7 @@
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                        <i class="fa fa-star" id="rating"> BEST SELLER </i>
                                          <img src="img\menu_whitechocomocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -178,11 +175,10 @@
                                     </div> 
                             </div>
                                <!-- 6th card -->
-                               <div id="col-sm-4">
+                               <div id="col-sm-4"> 
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                        <i class="fa fa-star" id="rating"> BEST SELLER</i>
                                          <img src="img\menu_darklatte.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -198,8 +194,7 @@
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                
                                          <img src="img\menu_espresso.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -214,8 +209,7 @@
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
+                                        <i class="fa fa-star" id="rating"> </i>
                                          <img src="img\menu_greentea1.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -232,7 +226,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_icedamericano.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -248,7 +241,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_icedcapuccino.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -264,7 +256,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_icedlatte.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -280,7 +271,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_icedmatcha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -296,7 +286,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_icedmocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -312,7 +301,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_icecaramelmacchiato.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -328,7 +316,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_caramelfrap.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -344,7 +331,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_darkchocofrap.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -360,7 +346,6 @@
                                     <div id="item-card">           
                                     <div id="card-top">
                                         <i class="fa fa-star" id="rating">5</i>
-                                        <i class="fa fa-shopping-cart"></i>
                                          <img src="img\menu_coffeefrap.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -382,7 +367,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                <i>BEST SELLER</i>
                              <img src="img\menu_waffles1.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -397,7 +382,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                <i >BEST SELLER</i>
                              <img src="img\menu_muffin.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -412,7 +397,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                <i >BEST SELLER</i>
                              <img src="img\menu_cookie.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -427,7 +412,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_brownies.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -442,7 +426,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_butter.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -457,7 +440,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5.</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_almond.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -472,7 +454,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_hamcheese.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -488,7 +469,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_cinammon.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -503,7 +483,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_chococookie.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -518,7 +497,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_plainbagel.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -533,7 +511,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_strawberrycake1.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -548,7 +525,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">  5 </i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\bread_chocolat.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -563,7 +539,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_chochojamdonut.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -578,7 +553,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\bread_bacondanish.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -609,7 +583,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                <i>BEST SELLER</i>
                              <img src="img\menu_pancakes.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -626,7 +600,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">5</i>
-                                <i class="fa fa-shopping-cart">BEST SELLER</i>
+                                <i >BEST SELLER</i>
                              <img src="img\menu_englishbreakfast.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -641,7 +615,7 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">4</i>
-                                <i class="fa fa-shopping-cart"></i>
+                       
                              <img src="img\menu_benedict.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -656,7 +630,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">4</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\menu_pestopasta.png"  alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -671,7 +644,6 @@
                         <div id="item-card">           
                             <div id="card-top">
                                 <i class="fa fa-star" id="rating">4</i>
-                                <i class="fa fa-shopping-cart"></i>
                              <img src="img\break_bolognese.png"  alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -681,11 +653,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
                         </div>
                
                 
