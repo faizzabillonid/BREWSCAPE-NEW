@@ -38,9 +38,8 @@ if (isset($_POST['submit'])) {
             exit;
         }
     }
-
-    
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -101,7 +100,9 @@ if (isset($_POST['submit'])) {
     </form>
     <div class="side-reservation">
             <img src="Photos\reservation.jpg" alt="">
+            
         </div>
+        
 </div>
 </body>
 </html>
