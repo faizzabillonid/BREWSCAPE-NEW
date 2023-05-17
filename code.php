@@ -62,7 +62,7 @@ if (isset($_POST['signin_btn'])) {
             if($row['usertype'] == 'admin') {
                 header('Location: admin/res_list.php');
             } else {
-                header("Location: home.php");
+                header("Location: reservation.php");
             }
             exit;
         } else {

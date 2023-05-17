@@ -31,10 +31,7 @@ if (isset($_POST['submit'])) {
         // Insert reservation into database
         $sql = "INSERT INTO reservations (name, phone, shop_location, datetime, num_people) VALUES ('$name', '$phone', '$shop_location', '$datetime', '$num_people')";
         if (mysqli_query($conn, $sql)) {
-            header("Location: signin.php");
-            exit;
-        } else {
-            header("Location: reservation.php");
+            header("Location: home.php");
             exit;
         }
     }
