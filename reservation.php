@@ -41,8 +41,11 @@ if (isset($_POST['submit'])) {
         session_start(); // Start the session if it hasn't been started already
         $email = $_SESSION['email']; // Assuming you store the email of the signed-in user in the 'email' session variable
 
+        // Set default status as "Pending"
+        $status = "Pending";
+
         // Insert reservation into database
-        $sql = "INSERT INTO reservations (email, name, phone, shop_location, datetime, num_people) VALUES ('$email','$name', '$phone', '$shop_location', '$datetime', '$num_people')";
+        $sql = "INSERT INTO reservations (email, name, phone, shop_location, datetime, num_people, status) VALUES ('$email','$name', '$phone', '$shop_location', '$datetime', '$num_people', '$status')";
         if (mysqli_query($conn, $sql)) {
             header("Location: home.php");
             exit;

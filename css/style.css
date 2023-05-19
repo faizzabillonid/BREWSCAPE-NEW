@@ -431,3 +431,43 @@ nav ul li a:hover {
     border-color: #F2DEC1;
     background: #F2DEC1;
 }
+
+.status-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.status-confirmed {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.action-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-cancel {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.action-done {
+    background-color: #007bff;
+    color: #fff;
+}
