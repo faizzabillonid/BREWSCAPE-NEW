@@ -19,6 +19,10 @@ if (!isset($_SESSION['email'])) {
     exit;
 }
 
+// Initialize variables for alert messages
+$error = "";
+$success = "";
+
 // Check if reservation form has been submitted
 if (isset($_POST['submit'])) {
     // Get form data
@@ -45,8 +49,11 @@ if (isset($_POST['submit'])) {
         // Insert reservation into database
         $sql = "INSERT INTO reservations (email, name, phone, shop_location, datetime, num_people, status) VALUES ('$email','$name', '$phone', '$shop_location', '$datetime', '$num_people', '$status')";
         if (mysqli_query($conn, $sql)) {
+            $success = "Reservation submitted successfully.";
             header("Location: home.php");
             exit;
+        } else {
+            $error = "Error submitting the reservation.";
         }
     }
 }
@@ -64,6 +71,11 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>   
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
 </head>
 
 <body>
@@ -73,6 +85,13 @@ if (isset($_POST['submit'])) {
 <div class="reservation-container">
     <form method="post" class="form">
     <h2>Table Reservation</h2>
+    <?php if ($error) { ?>
+        <div class="alert alert-error"><?php echo $error; ?></div>
+        <?php } ?>
+
+    <?php if ($success) { ?>
+        <div class="alert alert-success"><?php echo $success; ?></div>
+        <?php } ?>
     <div class="row-grid">
                 <div class="rows">
                     <label for="name">Name</label>
