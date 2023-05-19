@@ -6,7 +6,7 @@
           <li> <a href="menucoffee.php">MENU</a></li>
           <li> <a href="findstore.php">FIND A STORE</a></li>
           <li> <a href="about.php">ABOUT US</a></li>       
-          <li> <a href="signin.php"><i class="fa-solid fa-bell-concierge fa-xs " style="color: #ffffff;"></i> DINE WITH US</a></li>
+          <li> <a href="reservation.php"><i class="fa-solid fa-bell-concierge fa-xs " style="color: #ffffff;"></i> DINE WITH US</a></li>
 
       </ul>
     </nav>

@@ -1,3 +1,56 @@
+<?php
+// Connect to database
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$brewscape = 'brewscape';
+$conn = mysqli_connect($host, $user, $password, $brewscape);
+
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+// Check if the user is already signed in
+session_start();
+if (isset($_SESSION['email'])) {
+    // Redirect to the reservation page or any other desired page
+    header("Location: reservation.php");
+    exit;
+}
+
+// Check if the sign-up form has been submitted
+if (isset($_POST['signup_btn'])) {
+    // Get form data
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    
+    // Set a default value for usertype
+    $usertype = "user";
+
+    // Validate form data
+    if (empty($email) || empty($password)) {
+        echo "Please fill in all required fields.";
+    } else {
+        // Check if the email already exists in the users table
+        $checkEmailQuery = "SELECT * FROM users WHERE email = '$email'";
+        $checkEmailResult = mysqli_query($conn, $checkEmailQuery);
+
+        if (mysqli_num_rows($checkEmailResult) > 0) {
+            echo "Email already exists. Please choose a different email.";
+        } else {
+            // Insert the new user into the users table
+            $insertUserQuery = "INSERT INTO users (email, password, usertype) VALUES ('$email', '$password', '$usertype')";
+            if (mysqli_query($conn, $insertUserQuery)) {
+                header("Location: signin.php");
+                exit;
+            } else {
+                echo "Error: " . mysqli_error($conn);
+            }
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +69,7 @@
 <?php include 'Bars/navbar.php';?>
 
     <div class="signup-container">
-        <form action="code.php" method="POST" class="form">
+        <form action="" method="POST" class="form">
             <h2>SIGN UP</h2>
             <div class="row-grid">
                 <div class="rows">

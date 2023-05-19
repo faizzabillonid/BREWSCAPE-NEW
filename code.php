@@ -53,6 +53,7 @@ if (isset($_POST['signin_btn'])) {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
             // Password matches, store the user ID in the session and redirect to the dashboard page
+            $_SESSION['email'] = $row['email'];
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['usertype'] = $row['usertype'];
             $_SESSION['user'] = [

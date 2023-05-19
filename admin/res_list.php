@@ -27,6 +27,7 @@
 <table id="customers">
   <tr>
     <th>Reservation Number</th>
+    <th>Email</th>
     <th>Name</th>
     <th>Phone Number</th>
     <th>Branch Location</th>
@@ -43,6 +44,7 @@
 
             <tr>
                 <td><?php echo $row['id']; ?></td>
+                <td><?php echo $row['email']; ?></td>
                 <td><?php echo $row['name']; ?></td>
                 <td><?php echo $row['phone']; ?></td>
                 <td><?php echo $row['shop_location']; ?></td>  

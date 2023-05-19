@@ -11,6 +11,14 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+// Check if the user is signed in
+session_start();
+if (!isset($_SESSION['email'])) {
+    // Redirect to the sign-in page or display an error message
+    header("Location: signin.php");
+    exit;
+}
+
 // Check if reservation form has been submitted
 if (isset($_POST['submit'])) {
     // Get form data
@@ -28,8 +36,13 @@ if (isset($_POST['submit'])) {
     } elseif ($num_people <= 0 || $num_people > 20) {
         echo "Please choose a number of people between 1 and 20.";
     } else {
+
+        // Get email from the signed-in user
+        session_start(); // Start the session if it hasn't been started already
+        $email = $_SESSION['email']; // Assuming you store the email of the signed-in user in the 'email' session variable
+
         // Insert reservation into database
-        $sql = "INSERT INTO reservations (name, phone, shop_location, datetime, num_people) VALUES ('$name', '$phone', '$shop_location', '$datetime', '$num_people')";
+        $sql = "INSERT INTO reservations (email, name, phone, shop_location, datetime, num_people) VALUES ('$email','$name', '$phone', '$shop_location', '$datetime', '$num_people')";
         if (mysqli_query($conn, $sql)) {
             header("Location: home.php");
             exit;
