@@ -7,3 +7,8 @@ function fadeOut(){
 }
 
 window.onload = fadeOut;
+
+const reserveBtn = document.getElementById('reserve');
+reserve.addEventListener('click', function() {
+    alert('Button clicked!');
+});

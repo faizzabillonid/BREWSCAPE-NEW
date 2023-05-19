@@ -107,7 +107,7 @@
                                     <div class="card-bottom">
                                             <p id="item-name">Cafe Americano</p>
                                         <p class="item-description">Espresso poured over hot water.</p>
-                                        <p id="item-price" style="font-size: 28px;">₱150.00</p>
+                                        <p id="item-price" style="font-size: 28px;">₱99.00</p>
 
                                     </div>
                             </div> 
@@ -123,7 +123,7 @@
                                     <div class="card-bottom">
                                             <p id="item-name"> Cafe Mocha </p>
                                         <p class="item-description">Espresso, chocolate, and steamed milk in a delicious coffee drink.</p>
-                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱129.00</p>
 
                                     </div>
                                     </div> 
@@ -139,7 +139,7 @@
                                     <div class="card-bottom">
                                             <p id="item-name">Flat White</p>
                                         <p class="item-description">Double shot, steamed milk, microfoam espresso drink.</p>
-                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱129.00</p>
 
                                     </div>
                                     </div> 
@@ -154,12 +154,12 @@
                                     <div class="card-bottom">
                                             <p id="item-name">Hot Chocolate</p>
                                         <p class="item-description">Steamed milk and mocha syrup topped with whipped cream.</p>
-                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱150.00</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top:0px;">₱199.00</p>
 
                                     </div>
                                     </div> 
                             </div>
-                               <!-- 6th card -->
+                               <!-- 8th card -->
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
@@ -169,12 +169,12 @@
                                     <div class="card-bottom">
                                             <p id="item-name">White Chocolate Mocha</p>
                                         <p class="item-description">A blend of espresso coffee, white chocolate and milk.</p>
-                                        <p id="item-price" style="font-size: 28px; margin-top: 0px;">₱150.00</p>
+                                        <p id="item-price" style="font-size: 28px; margin-top: 0px;">₱199.00</p>
 
                                     </div>
                                     </div> 
                             </div>
-                               <!-- 6th card -->
+                               <!-- 9th card -->
                                <div id="col-sm-4"> 
                                     <div id="item-card">           
                                     <div id="card-top">
