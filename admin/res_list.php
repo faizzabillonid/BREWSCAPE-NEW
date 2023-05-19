@@ -104,6 +104,8 @@ $query_run = mysqli_query($conn, $query);
                         <?php
                         if ($status == "Pending") {
                             echo '<span class="status-button status-pending">' . $status . '</span>';
+                        } elseif ($status == "Cancelled") {
+                            echo '<span class="status-button status-cancel">' . $status . '</span>';
                         } elseif ($status == "Confirmed") {
                             echo '<span class="status-button status-confirmed">' . $status . '</span>';
                         } elseif ($status == "Done") {
