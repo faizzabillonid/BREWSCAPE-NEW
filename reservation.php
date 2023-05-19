@@ -27,6 +27,7 @@ if (isset($_POST['submit'])) {
     $shop_location = $_POST['location'];
     $datetime = $_POST['datetime'];
     $num_people = $_POST['num_people'];
+    $status = "Pending"; // Set initial status as "Pending"
 
     // Validate form data
     if (empty($name) || empty($phone) || empty($shop_location) || empty($datetime) || empty($num_people)) {
@@ -40,9 +41,6 @@ if (isset($_POST['submit'])) {
         // Get email from the signed-in user
         session_start(); // Start the session if it hasn't been started already
         $email = $_SESSION['email']; // Assuming you store the email of the signed-in user in the 'email' session variable
-
-        // Set default status as "Pending"
-        $status = "Pending";
 
         // Insert reservation into database
         $sql = "INSERT INTO reservations (email, name, phone, shop_location, datetime, num_people, status) VALUES ('$email','$name', '$phone', '$shop_location', '$datetime', '$num_people', '$status')";

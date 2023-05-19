@@ -467,6 +467,12 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.action-confirm {
+    background-color: #28a745;
+    color: #fff;
+}
+
+
 .action-done {
     background-color: #007bff;
     color: #fff;

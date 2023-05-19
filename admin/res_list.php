@@ -95,11 +95,13 @@ $query_run = mysqli_query($conn, $query);
                         ?>
                     </td>
                     <td>
-                        <?php
+                    <?php
                         if ($status == "Pending") {
                             echo '<a href="?cancel=' . $row['id'] . '" class="action-button action-cancel">Cancel</a>';
+                            echo '<a href="?confirm=' . $row['id'] . '" class="action-button action-confirm">Confirm</a>'; // Add the Confirm button
                         } elseif ($status == "Confirmed") {
-                            echo '<a href="?confirm=' . $row['id'] . '" class="action-button action-done">Done</a>';
+                            echo '<a href="?cancel=' . $row['id'] . '" class="action-button action-cancel">Cancel</a>';
+                            echo '<a href="?confirm=' . $row['id'] . '" class="action-button action-done">Done</a>'; // Change the button text to "Done"
                         }
                         ?>
                     </td>
