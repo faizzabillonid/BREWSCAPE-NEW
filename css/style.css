@@ -477,3 +477,17 @@ nav ul li a:hover {
     background-color: #007bff;
     color: #fff;
 }
+
+/*alert messsage*/
+
+.alert {
+  display: none;
+  padding: 10px;
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
+}
+
+.alert.show {
+  display: block;
+}
