@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 06, 2023 at 08:21 AM
+-- Generation Time: May 19, 2023 at 12:16 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -29,19 +29,22 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `reservations` (
   `id` int(11) NOT NULL,
+  `email` varchar(500) NOT NULL,
   `name` varchar(100) NOT NULL,
-  `phone` int(11) NOT NULL,
+  `phone` varchar(11) NOT NULL,
+  `shop_location` varchar(500) NOT NULL,
   `datetime` datetime NOT NULL,
-  `num_people` int(20) NOT NULL
+  `num_people` int(20) NOT NULL,
+  `status` varchar(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `reservations`
 --
 
-INSERT INTO `reservations` (`id`, `name`, `phone`, `datetime`, `num_people`) VALUES
-(1, 'joy', 2147483647, '2023-05-06 13:00:00', 2),
-(8, 'admin', 2147483647, '2023-05-26 17:30:00', 4);
+INSERT INTO `reservations` (`id`, `email`, `name`, `phone`, `shop_location`, `datetime`, `num_people`, `status`) VALUES
+(15, 'cillomayjoybutao@gmail.com', 'Mayjoy Cillo', '09428754698', 'Brewscape Main Branch', '2023-05-21 15:00:00', 2, 'Cancelled'),
+(18, 'cillomayjoybutao@gmail.com', 'Grey', '09611289875', 'Brewscape SM City Butuan', '2023-05-19 14:16:00', 2, 'Confirmed');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +64,7 @@ ALTER TABLE `reservations`
 -- AUTO_INCREMENT for table `reservations`
 --
 ALTER TABLE `reservations`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
