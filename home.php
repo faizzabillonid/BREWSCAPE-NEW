@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="script.js">
-
-
-    
+   
 </head>
 
 <body>
@@ -28,7 +26,7 @@ include 'Bars/navbar.php';
     <div class="text-container">
     <h1>Fuel Your Day With Our Rich and Aromatic Brews.</h1>
           <button onclick="window.location.href = 'menucoffee.php';" class="discover">Discover The Menu</button>
-  </div>
+    </div>
     </div>
 
     <div class="container">
