@@ -64,6 +64,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="script.js">
 </head>
 
 <body>
@@ -105,8 +106,27 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <div id="reserve"class="rows" >
-                    <input id="reserve"type="submit" name="submit" value="Book">
+                    <input id="reserveBtn"type="submit" name="submit" value="Book">
                 </div>
+            <script> const reserveBtn = document.getElementById('reserveBtn');
+reserveBtn.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const datetime = document.getElementById('datetime').value;
+    const numPeople = document.getElementById('schedule').value;
+
+    if (datetime && numPeople) {
+        // Convert datetime to the desired format
+        const formattedDatetime = new Date(datetime);
+        const options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+        const formattedDatetimeString = formattedDatetime.toLocaleDateString('en-US', options);
+
+        const confirmationMessage = `Booking confirmed for ${numPeople} people at ${formattedDatetimeString}`;
+        alert(confirmationMessage);
+    } else {
+        alert('Please fill in all required fields.');
+    }
+}); </script> 
     </div>
     </form>
     <div class="side-reservation">

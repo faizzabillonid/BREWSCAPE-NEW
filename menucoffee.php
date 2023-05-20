@@ -14,7 +14,17 @@
 
 </head>
 <body>
-<?php include 'Bars/navbar.php';?>
+<?php // Start the session
+session_start();
+
+// Check if the user is signed in
+if (isset($_SESSION['email'])) {
+    // User is signed in, display the signed-in navbar
+    include 'Bars/validnavbar.php';
+} else {
+    // User is not signed in, display the not signed-in navbar
+    include 'Bars/navbar.php';
+}?>
   
         <div class="image-container"> 
             <img src="Photos/coffeemenu.png" class="menucoffee" style=" width: 100%; height: 425px;">

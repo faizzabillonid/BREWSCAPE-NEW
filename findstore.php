@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/find.css">
     <link rel="stylesheet" href="script.js">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>
+    
     
 </head>
 

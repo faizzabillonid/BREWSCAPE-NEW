@@ -7,7 +7,9 @@
           <li> <a href="findstore.php">FIND A STORE</a></li>
           <li> <a href="about.php">ABOUT US</a></li>       
           <li> <a href="reservation.php"><i class="fa-solid fa-bell-concierge fa-xs " style="color: #ffffff;"></i> DINE WITH US</a></li>
+          <li> <a href="about.php"> <i class="fa-solid fa-circle-user fa-lg" style="color: black;"></i> PROFILES  </a></li>   
+      
 
       </ul>
     </nav>
- 
+   
