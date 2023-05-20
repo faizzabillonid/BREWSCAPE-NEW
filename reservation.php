@@ -64,9 +64,6 @@ if (isset($_GET['logout'])) {
 }
 ?>
 
-<!-- Logout button -->
-<a href="?logout=true">Logout</a>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
