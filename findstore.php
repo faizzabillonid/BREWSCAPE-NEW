@@ -19,8 +19,7 @@
     
             <?php include 'Bars/navbar.php';?>
 
-<iframe src="https://my.atlistmaps.com/map/42e208e9-22f2-44f8-8680-d993b5d11976?share=true" allow="geolocation 'self' https://my.atlistmaps.com" width="100%" height="1000px%" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
+            <iframe src="https://my.atlist.com/map/53c26c62-b120-403b-88a1-a3cc92c287cd?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="1000px" frameborder="0" scrolling="no" allowfullscreen></iframe>
    
         
   <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">

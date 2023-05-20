@@ -207,4 +207,20 @@ a {
     text-align: center;
 }
 
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .alert-error {
+    background-color: #dc3545;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+  }
+
 

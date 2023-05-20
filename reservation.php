@@ -19,6 +19,10 @@ if (!isset($_SESSION['email'])) {
     exit;
 }
 
+// Initialize variables for alert messages
+$error = "";
+$success = "";
+
 // Check if reservation form has been submitted
 if (isset($_POST['submit'])) {
     // Get form data
@@ -45,13 +49,24 @@ if (isset($_POST['submit'])) {
         // Insert reservation into database
         $sql = "INSERT INTO reservations (email, name, phone, shop_location, datetime, num_people, status) VALUES ('$email','$name', '$phone', '$shop_location', '$datetime', '$num_people', '$status')";
         if (mysqli_query($conn, $sql)) {
+            $success = "Reservation submitted successfully.";
             header("Location: home.php");
             exit;
+        } else {
+            $error = "Error submitting the reservation.";
         }
     }
 }
-
+if (isset($_GET['logout'])) {
+    // Redirect to the logout page
+    header("Location: logout.php");
+    exit;
+}
 ?>
+
+<!-- Logout button -->
+<a href="?logout=true">Logout</a>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,6 +80,11 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/861a14876a.js" crossorigin="anonymous"></script>   
     <link rel="stylesheet" href="script.js">
+    <script>
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
 </head>
 
 <body>
@@ -74,6 +94,13 @@ if (isset($_POST['submit'])) {
 <div class="reservation-container">
     <form method="post" class="form">
     <h2>Table Reservation</h2>
+    <?php if ($error) { ?>
+        <div class="alert alert-error"><?php echo $error; ?></div>
+        <?php } ?>
+
+    <?php if ($success) { ?>
+        <div class="alert alert-success"><?php echo $success; ?></div>
+        <?php } ?>
     <div class="row-grid">
                 <div class="rows">
                     <label for="name">Name</label>
@@ -88,7 +115,7 @@ if (isset($_POST['submit'])) {
                 <div class="rows">
                 <label for="location">Branch Location</label>
                     <select id="location" name="location">
-                        <option value="none" selected disabled hidded>Select an option</option>
+                        <option value="none" selected disabled hidded>Select Branch</option>
                         <option value="Brewscape Main Branch">Brewscape Main Branch</option>
                         <option value="Brewscape SM City Butuan">Brewscape SM City Butuan</option>
                         <option value="Brewscape Watergate Hotel">Brewscape Watergate Hotel</option>
@@ -108,25 +135,27 @@ if (isset($_POST['submit'])) {
                 <div id="reserve"class="rows" >
                     <input id="reserveBtn"type="submit" name="submit" value="Book">
                 </div>
-            <script> const reserveBtn = document.getElementById('reserveBtn');
-reserveBtn.addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default form submission
+                <script> 
+                    const reserveBtn = document.getElementById('reserveBtn');
+                    reserveBtn.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent the default form submission
 
-    const datetime = document.getElementById('datetime').value;
-    const numPeople = document.getElementById('schedule').value;
+                    const datetime = document.getElementById('datetime').value;
+                    const numPeople = document.getElementById('schedule').value;
 
-    if (datetime && numPeople) {
-        // Convert datetime to the desired format
-        const formattedDatetime = new Date(datetime);
-        const options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
-        const formattedDatetimeString = formattedDatetime.toLocaleDateString('en-US', options);
+                    if (datetime && numPeople) {
+                    // Convert datetime to the desired format
+                    const formattedDatetime = new Date(datetime);
+                    const options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+                    const formattedDatetimeString = formattedDatetime.toLocaleDateString('en-US', options);
 
-        const confirmationMessage = `Booking confirmed for ${numPeople} people at ${formattedDatetimeString}`;
-        alert(confirmationMessage);
-    } else {
-        alert('Please fill in all required fields.');
-    }
-}); </script> 
+                    const confirmationMessage = `Booking confirmed for ${numPeople} people at ${formattedDatetimeString}`;
+                    alert(confirmationMessage);
+                    } else {
+                    alert('Please fill in all required fields.');
+                    }
+                    });</script>
+           
     </div>
     </form>
     <div class="side-reservation">

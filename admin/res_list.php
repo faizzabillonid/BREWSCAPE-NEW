@@ -41,6 +41,21 @@ if (isset($_GET['confirm'])) {
     }
 }
 
+// Check if the Done button is clicked
+if (isset($_GET['done'])) {
+    $reservationId = $_GET['done'];
+
+    // Update the status to "Done"
+    $sql = "UPDATE reservations SET status = 'Done' WHERE id = $reservationId";
+    if (mysqli_query($conn, $sql)) {
+        // Redirect back to the reservation list page
+        header("Location: res_list.php");
+        exit;
+    } else {
+        echo "Error updating record: " . mysqli_error($conn);
+    }
+}
+
 // Retrieve reservations from the database
 $query = "SELECT * FROM reservations";
 $query_run = mysqli_query($conn, $query);
@@ -89,19 +104,23 @@ $query_run = mysqli_query($conn, $query);
                         <?php
                         if ($status == "Pending") {
                             echo '<span class="status-button status-pending">' . $status . '</span>';
+                        } elseif ($status == "Cancelled") {
+                            echo '<span class="status-button status-cancel">' . $status . '</span>';
                         } elseif ($status == "Confirmed") {
                             echo '<span class="status-button status-confirmed">' . $status . '</span>';
+                        } elseif ($status == "Done") {
+                            echo '<span class="status-button status-done">' . $status . '</span>';
                         }
                         ?>
                     </td>
                     <td>
-                    <?php
+                        <?php
                         if ($status == "Pending") {
                             echo '<a href="?cancel=' . $row['id'] . '" class="action-button action-cancel">Cancel</a>';
                             echo '<a href="?confirm=' . $row['id'] . '" class="action-button action-confirm">Confirm</a>'; // Add the Confirm button
                         } elseif ($status == "Confirmed") {
                             echo '<a href="?cancel=' . $row['id'] . '" class="action-button action-cancel">Cancel</a>';
-                            echo '<a href="?confirm=' . $row['id'] . '" class="action-button action-done">Done</a>'; // Change the button text to "Done"
+                            echo '<a href="?done=' . $row['id'] . '" class="action-button action-done">Done</a>'; // Change the button text to "Done"
                         }
                         ?>
                     </td>

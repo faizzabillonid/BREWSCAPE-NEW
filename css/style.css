@@ -402,7 +402,7 @@ nav ul li a:hover {
     position: fixed;
     top: 0; left:0; right:0; bottom: 0;
     z-index: 1000000;
-    background-color: #E4D2C4;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -479,46 +479,16 @@ nav ul li a:hover {
     color: #fff;
 }
 
-#dropdown {
-  position: relative;
-  display: inline-block;
-}
+/*alert messsage*/
 
-/* Style for the dropdown button */
-#dropbtn {
-
-  color: #ffffff;
-  padding: 0px;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Style for the dropdown content */
-.dropdown-content {
+.alert {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  min-height: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 10000000000;
+  padding: 10px;
+  background-color: #f44336;
+  color: #fff;
+  text-align: center;
 }
 
-/* Style for the dropdown links */
-.dropdown-content a {
-  color: rgb(0, 0, 0);
-  padding: 12px 16px;
-  text-decoration: none;
+.alert.show {
   display: block;
-}
-
-/* Style for the dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ffffff;
-}
-
-/* Show the dropdown menu when hovering over the dropdown button */
-#dropdown:hover .dropdown-content {
-  display: flex;
 }

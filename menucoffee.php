@@ -40,23 +40,23 @@ if (isset($_SESSION['email'])) {
                 <div class="list-card">
                     <img src="img\home_coffee.png" style="width:100px; height: 100px;"
                      alt="list">
-                     <a href="#coffee" class="list-name">Coffee and Frappe</a>
+                     <a href="#coffee" class="list-name">Beverages</a>
                 </div>
                 <div class="list-card" id="Bread-list">
                     <img src="img\home_donut.png" style="width:100px; height: 100px;"
                      alt="list">
-                     <a href="#breads" class="list-name" >Bread and Pastry</a>
+                     <a href="#breads" class="list-name" >Pastries</a>
                 </div>
                 <div class="list-card">
                 <img src="img\home_breakfast.png" style="width:100px; height: 100px;"
                      alt="list">
-                     <a href="#breakfast" class="list-name">Breakfast and Pasta</a>
+                     <a href="#breakfast" class="list-name">Brewscape Meals</a>
                 </div>
             </div>
             
 
             <div id="food-container">
-                <p class="category-name" id="coffee">Coffee and Frappe</p>
+                <p class="category-name" id="coffee">Beverages</p>
                 <!-- ROW -->
                 <div class="row">
                     <!-- 1st card COFFEE -->
@@ -126,8 +126,7 @@ if (isset($_SESSION['email'])) {
                            <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
-                                        <i>BEST SELLER</i>
+                            
                                          <img src="img\menu_cafemocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -142,7 +141,7 @@ if (isset($_SESSION['email'])) {
                              <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                        
                                        
                                          <img src="img\menu_flatwhite.png"  alt="" >
                                     </div>
@@ -158,7 +157,7 @@ if (isset($_SESSION['email'])) {
                             <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                        
                                          <img src="img\menu_hotchocolate.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -173,7 +172,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating"> BEST SELLER </i>
+                                        
                                          <img src="img\menu_whitechocomocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -188,7 +187,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4"> 
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating"> BEST SELLER</i>
+                                        
                                          <img src="img\menu_darklatte.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -219,7 +218,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating"> </i>
+                                      
                                          <img src="img\menu_greentea1.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -235,7 +234,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                        
                                          <img src="img\menu_icedamericano.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -250,7 +249,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                     
                                          <img src="img\menu_icedcapuccino.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -265,7 +264,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                    
                                          <img src="img\menu_icedlatte.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -280,7 +279,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                       
                                          <img src="img\menu_icedmatcha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -295,7 +294,7 @@ if (isset($_SESSION['email'])) {
                                <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                               
                                          <img src="img\menu_icedmocha.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -310,7 +309,7 @@ if (isset($_SESSION['email'])) {
                              <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                    
                                          <img src="img\menu_icecaramelmacchiato.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -325,7 +324,7 @@ if (isset($_SESSION['email'])) {
                              <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                   
                                          <img src="img\menu_caramelfrap.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -340,7 +339,7 @@ if (isset($_SESSION['email'])) {
                              <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                
                                          <img src="img\menu_darkchocofrap.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -355,7 +354,7 @@ if (isset($_SESSION['email'])) {
                              <div id="col-sm-4">
                                     <div id="item-card">           
                                     <div id="card-top">
-                                        <i class="fa fa-star" id="rating">5</i>
+                                
                                          <img src="img\menu_coffeefrap.png"  alt="" >
                                     </div>
                                     <div class="card-bottom">
@@ -369,15 +368,14 @@ if (isset($_SESSION['email'])) {
 
                 </div>
                             <!-- BREADS AND PASTRIES SECTION -->
-                            <p class="category-name" id="breads">Bread and Pastry</p>
+                            <p class="category-name" id="breads">Pastries</p>
                             <!-- ROW -->
                 <div class="row">
                         <!-- 1st card BREAD -->
                         <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i>BEST SELLER</i>
+                            <i class="fa fa-star" id="rating"> BEST SELLER </i>
                              <img src="img\menu_waffles1.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -391,8 +389,7 @@ if (isset($_SESSION['email'])) {
                       <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i >BEST SELLER</i>
+                            <i class="fa fa-star" id="rating"> BEST SELLER </i>
                              <img src="img\menu_muffin.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -406,8 +403,7 @@ if (isset($_SESSION['email'])) {
                         <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i >BEST SELLER</i>
+                            <i class="fa fa-star" id="rating"> BEST SELLER </i>
                              <img src="img\menu_cookie.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -421,7 +417,7 @@ if (isset($_SESSION['email'])) {
                            <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                        
                              <img src="img\menu_brownies.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -435,7 +431,7 @@ if (isset($_SESSION['email'])) {
                            <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                               
                              <img src="img\menu_butter.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -449,7 +445,7 @@ if (isset($_SESSION['email'])) {
                            <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5.</i>
+                                
                              <img src="img\menu_almond.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -463,7 +459,7 @@ if (isset($_SESSION['email'])) {
                          <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                             
                              <img src="img\menu_hamcheese.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -478,7 +474,7 @@ if (isset($_SESSION['email'])) {
                            <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                               
                              <img src="img\menu_cinammon.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -492,7 +488,7 @@ if (isset($_SESSION['email'])) {
                      <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                         
                              <img src="img\menu_chococookie.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -506,7 +502,7 @@ if (isset($_SESSION['email'])) {
                          <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                         
                              <img src="img\menu_plainbagel.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -520,7 +516,7 @@ if (isset($_SESSION['email'])) {
                  <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                                
                              <img src="img\menu_strawberrycake1.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -534,7 +530,7 @@ if (isset($_SESSION['email'])) {
                          <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">  5 </i>
+                             
                              <img src="img\bread_chocolat.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -548,7 +544,7 @@ if (isset($_SESSION['email'])) {
                           <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                               
                              <img src="img\menu_chochojamdonut.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -562,7 +558,7 @@ if (isset($_SESSION['email'])) {
                           <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
+                              
                              <img src="img\bread_bacondanish.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -586,14 +582,13 @@ if (isset($_SESSION['email'])) {
                 </div>
 
                  <!-- BREAKFAST MEALS SECTION -->
-                 <p class="category-name" id="breakfast" style="margin-top: 80px;">Breakfast and Pasta</p>
+                 <p class="category-name" id="breakfast" style="margin-top: 80px;">Brewscape Meals</p>
                             <div class="row">
                        <!-- 1st card BREAD -->
                        <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i>BEST SELLER</i>
+                            <i class="fa fa-star" id="rating"> BEST SELLER </i>
                              <img src="img\menu_pancakes.png" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -609,8 +604,7 @@ if (isset($_SESSION['email'])) {
                             <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">5</i>
-                                <i >BEST SELLER</i>
+                            <i class="fa fa-star" id="rating"> BEST SELLER </i>
                              <img src="img\menu_englishbreakfast.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -624,7 +618,7 @@ if (isset($_SESSION['email'])) {
                                 <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">4</i>
+                              
                        
                              <img src="img\menu_benedict.png" style="width: 180px; height:180px; margin-top: 20px" alt="">          
                          </div>
@@ -639,7 +633,7 @@ if (isset($_SESSION['email'])) {
                               <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">4</i>
+                                
                              <img src="img\menu_pestopasta.png"  alt="">          
                          </div>
                              <div class="card-bottom"> 
@@ -653,7 +647,7 @@ if (isset($_SESSION['email'])) {
                         <div class="col-sm-4">
                         <div id="item-card">           
                             <div id="card-top">
-                                <i class="fa fa-star" id="rating">4</i>
+                          
                              <img src="img\break_bolognese.png"  alt="">          
                          </div>
                              <div class="card-bottom"> 

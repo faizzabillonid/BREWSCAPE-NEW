@@ -11,5 +11,5 @@
       </footer>
 
       <div class="loader">
-   <img id="loading" src="img/loadz.gif" alt="">
+   <img id="loading" src="img/loader2.gif" alt="">
 </div>
