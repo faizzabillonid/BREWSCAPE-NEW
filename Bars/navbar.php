@@ -20,7 +20,9 @@
   </ul>
 </nav>
 
-<script src="functions.php"></script>
+<?php 
+include("functions.php");
+?>
 
 <script>
   function checkSignInStatus() {
@@ -39,6 +41,11 @@
     // Return true if the user is signed in, otherwise return false
     return false;
   }
+
+  if (userIsSignedIn()) {
+    document.querySelector('.profile-dropdown').style.display = 'block';
+  }
+
 </script>
 
 <style>
