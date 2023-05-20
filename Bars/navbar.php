@@ -9,7 +9,7 @@ $loggedIn = true;
         <li><a href="home.php">HOME</a></li>
         <li><a href="menucoffee.php">MENU</a></li>
         <li><a href="findstore.php">FIND A STORE</a></li>
-        <li><a href="about.php">ABOUT US</a></li>
+        <li><a href="about.php">ABOUT</a></li>
         <li><a href="#" onclick="showConfirmation(event);"><i class="fa-solid fa-bell-concierge fa-xs" style="color: #ffffff;"></i> DINE WITH US</a></li>    
     </ul>
 </nav>

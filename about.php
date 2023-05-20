@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brewscape</title>
+    <title>About</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="icon" href="img/Brewscape_Mug_white.png" >
     <link rel="stylesheet" href="css/about.css">
@@ -41,8 +41,8 @@
 
   <div class="about">
   <h1>Our Startup Location</h1>
-  <p>Our coffee shop is located in the heart of downtown, Butuan City. just a few blocks from the main square. Our address is 656 San Francisco Street Barangay Diego Silang, and we're situated in a charming old building with lots of character. You'll recognize us by our bright red awning and the smell of fresh coffee wafting out of our doors.</p>
-
+  <p>Our coffee shop is located in the heart of downtown, Butuan City. just a few blocks from the main square. Our main branch is located at San Francisco St. Barangay Diego Silang, and we're situated in a charming old building with lots of character. Brewscape also have 2 branches located at SM City Butuan and Watergate Hotel. You'll recognize us by our bright red awning and the smell of fresh coffee wafting out of our doors.</p>
+  <img class="aboutimg"src="img/about.jpg" alt="About Us" />
       </div>
       <hr style= "border-top: 3px solid #c5bdbd; margin: 50px;">
       <!--footer-->
