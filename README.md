@@ -29,6 +29,8 @@ FOR DATABASE
 8. Open the BREWSCAPE-NEW folder and inside the database folder click the reservations.sql file.
 9. Click IMPORT to import the file.
 
+PS. IF THE APACHE WON'T START GO TO INTERNET INFORMATION (IIS) MANAGER AND CLICK THE STOP IN MANAGE SERVER FOUND IN THE RIGHT SIDE OF YOUR LAPTOP OR PC.
+
 TO DOWNLOAD XAMPP
 1. Click this link: https://www.apachefriends.org/download.html
 2. Download the 8.2.4 version with 64-bit
